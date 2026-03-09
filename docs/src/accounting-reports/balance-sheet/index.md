@@ -33,6 +33,6 @@ The Balance Sheet is based on the fundamental accounting equation
 ## Scenarios
 
 - **Success Scenarios**
-  - [4.5.S1 Report filtered by date.](/accounting-reports/balance-sheet/scenarios/s1)
+  - [5.5.S1 Report filtered by date.](/accounting-reports/balance-sheet/scenarios/s1)
 - **Failure Scenarios**
-  - [4.5.F1 User isn't authenticated.](/accounting-reports/balance-sheet/scenarios/f1)
+  - [5.5.F1 User isn't authenticated.](/accounting-reports/balance-sheet/scenarios/f1)

@@ -17,7 +17,6 @@ In Simple Accounting, the General Ledger is generated automatically from [import
 ## Scenarios
 
 - **Success Scenarios**
-  - [4.1.S1 Report filtered by date.](/accounting-reports/general-ledger/scenarios/s1)
-  - [4.1.S2 Report filtered by coa.](/accounting-reports/general-ledger/scenarios/s2)
+  - [5.1.S1 Filtered report.](/accounting-reports/general-ledger/scenarios/s1)
 - **Failure Scenarios**
-  - [4.1.F1 User isn't authenticated.](/accounting-reports/general-ledger/scenarios/f1)
+  - [5.1.F1 User isn't authenticated.](/accounting-reports/general-ledger/scenarios/f1)

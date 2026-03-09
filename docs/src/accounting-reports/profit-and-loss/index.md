@@ -37,7 +37,7 @@ It summarizes income, costs, and expenses to measure business performance.
 ## Example
 
 <ClientOnly>
-  <iframe style="width:100%;height:300px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSK8usvSdzj91sqE5i2RIjDrphNa0dPEqgQjm-OAaPz1RSikSRF3KzElQGVnErazyMNn1WCgUh5k7dX/pubhtml?gid=1712647501&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+  <iframe style="width:100%;height:300px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSK8usvSdzj91sqE5i2RIjDrphNa0dPEqgQjm-OAaPz1RSikSRF3KzElQGVnErazyMNn1WCgUh5k7dX/pubhtml?gid=1712647501&amp;single=true&amp;widget=true&amp;headers=false" />
 </ClientOnly>
 
 [Profit & Loss Example](https://docs.google.com/spreadsheets/d/1mtkU7VeBmXn8A0bdTUgwjv7ghMexOGp59xfCZGApASs/edit?gid=1712647501#gid=1712647501)
@@ -45,8 +45,6 @@ It summarizes income, costs, and expenses to measure business performance.
 ## Scenarios
 
 - **Success Scenarios**
-  - [4.2.S1 Report filtered by date.](/accounting-reports/subledger/scenarios/s1)
-  - [4.2.S2 Report filtered by coa.](/accounting-reports/subledger/scenarios/s2)
-  - [4.2.S3 Report filtered by subledger.](/accounting-reports/subledger/scenarios/s3)
+  - [5.4.S1 Filtered report.](/accounting-reports/subledger/scenarios/s1)
 - **Failure Scenarios**
-  - [4.2.F1 User isn't authenticated.](/accounting-reports/subledger/scenarios/f1)
+  - [5.4.F1 User isn't authenticated.](/accounting-reports/subledger/scenarios/f1)

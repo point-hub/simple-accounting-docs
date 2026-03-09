@@ -215,8 +215,7 @@ outline: deep
 
 | 5.1.S Success Scenarios |
 | ---- |
-| [5.1.S1. Report filtered by date.](/accounting-reports/general-ledger/scenarios/s1) |
-| [5.1.S2. Report filtered by coa.](/accounting-reports/general-ledger/scenarios/s2) |
+| [5.1.S1 Filtered report.](/accounting-reports/general-ledger/scenarios/s1) |
 
 | 5.1.F Failed Scenarios |
 | ---- |
@@ -226,9 +225,7 @@ outline: deep
 
 | 5.2.S Success Scenarios |
 | ---- |
-| [5.2.S1. Report filtered by date.](/accounting-reports/subledger/scenarios/s1) |
-| [5.2.S2. Report filtered by coa.](/accounting-reports/subledger/scenarios/s2) |
-| [5.2.S3. Report filtered by subledger.](/accounting-reports/subledger/scenarios/s3) |
+| [5.2.S1 Filtered report.](/accounting-reports/subledger/scenarios/s1) |
 
 | 5.2.F Failed Scenarios |
 | ---- |
@@ -238,7 +235,7 @@ outline: deep
 
 | 5.3.S Success Scenarios |
 | ---- |
-| [5.3.S1. Report filtered by date.](/accounting-reports/trial-balance/scenarios/s1) |
+| [5.3.S1 Filtered report.](/accounting-reports/trial-balance/scenarios/s1) |
 
 | 5.3.F Failed Scenarios |
 | ---- |
@@ -248,7 +245,7 @@ outline: deep
 
 | 5.4.S Success Scenarios |
 | ---- |
-| [5.4.S1. Report filtered by date.](/accounting-reports/profit-and-loss/scenarios/s1) |
+| [5.4.S1 Filtered report.](/accounting-reports/profit-and-loss/scenarios/s1) |
 
 | 5.4.F Failed Scenarios |
 | ---- |
@@ -258,7 +255,7 @@ outline: deep
 
 | 5.5.S Success Scenarios |
 | ---- |
-| [5.5.S1. Report filtered by date.](/accounting-reports/balance-sheet/scenarios/s1) |
+| [5.5.S1 Filtered report.](/accounting-reports/balance-sheet/scenarios/s1) |
 
 | 5.5.F Failed Scenarios |
 | ---- |
