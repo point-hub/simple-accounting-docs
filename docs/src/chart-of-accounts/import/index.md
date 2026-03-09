@@ -8,8 +8,8 @@ Import Chart of Accounts is a feature that allows users to upload a structured f
 
 | Column       | Data Type | Description                                                                                                                          |
 |--------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------|
-| type     | `string`  | `required` The main account classification (e.g., `asset`, `liability`, `equity`, `income`, `expense`).                              |
-| category | `string`  | `required` The account category used for financial report grouping (e.g., `current-asset`, `operating-income`, `operating-expense`). |
+| type     | `string`  | `required` The main account classification (e.g., `Asset`, `Liability`, `Equity`, `Income`, `Expense`).                              |
+| category | `string`  | `required` The account category used for financial report grouping (e.g., `Current Asset`, `Operating Income`, `Operating Expense`). |
 | number   | `string`  | `required` The unique chart of account number used to identify the account (e.g., `100.01`).                                         |
 | name     | `string`  | `required` The name of the account as displayed in reports (e.g., `Cash`, `Sales Revenue`).                                          |
 
@@ -17,7 +17,7 @@ Below are the available `coa_type` and `coa_category` options used to classify a
 
 | Coa Type  | Coa Category             | Description                                                                                                                    |
 |-----------|--------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Asset     | Aurrent Asset            | Short-term assets expected to be converted into cash or used within one year (cash, receivables, inventory, prepaid expenses). |
+| Asset     | Current Asset            | Short-term assets expected to be converted into cash or used within one year (cash, receivables, inventory, prepaid expenses). |
 | Asset     | Fixed Asset              | Long-term tangible assets used in operations (equipment, vehicles, buildings).                                                 |
 | Asset     | Accumulated Depreciation | Contra-asset account that reduces the book value of fixed assets over time.                                                    |
 | Liability | Current Liability        | Short-term obligations due within one year (accounts payable, accrued expenses, short-term loans).                             |
