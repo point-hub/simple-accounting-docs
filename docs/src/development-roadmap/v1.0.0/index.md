@@ -136,8 +136,9 @@ outline: deep
 
 | 2.1.F Failed Scenarios |
 | ---- |
-| [2.1.F1. The required field is empty.](/my-account/update-username/scenarios/f1) |
-| [2.1.F2. The username is already exists.](/my-account/update-username/scenarios/f2) |
+| [2.1.F1. User isn't authenticated.](/my-account/update-username/scenarios/f1) |
+| [2.1.F2. The required field is empty.](/my-account/update-username/scenarios/f2) |
+| [2.1.F3. The username is already exists.](/my-account/update-username/scenarios/f3) |
 
 ### 2.2. Update Email
 
@@ -147,8 +148,9 @@ outline: deep
 
 | 2.2.F Failed Scenarios |
 | ---- |
-| [2.2.F1. The required field is empty.](/my-account/update-email/scenarios/f1) |
-| [2.2.F2. The Email is already exists.](/my-account/update-email/scenarios/f2) |
+| [2.2.F1. User isn't authenticated.](/my-account/update-email/scenarios/f1) |
+| [2.2.F2. The required field is empty.](/my-account/update-email/scenarios/f2) |
+| [2.2.F3. The Email is already exists.](/my-account/update-email/scenarios/f3) |
 
 ### 2.3. Update Password
 
@@ -158,9 +160,10 @@ outline: deep
 
 | 2.3.F Failed Scenarios |
 | ---- |
-| [2.3.F1. The required field is empty.](/my-account/update-password/scenarios/f1) |
-| [2.3.F2. Password is not strong enough.](/my-account/update-password/scenarios/f2) |
-| [2.3.F3. Password confirmation is not match.](/my-account/update-password/scenarios/f3) |
+| [2.3.F1. User isn't authenticated.](/my-account/update-password/scenarios/f1) |
+| [2.3.F2. The required field is empty.](/my-account/update-password/scenarios/f2) |
+| [2.3.F3. Password is not strong enough.](/my-account/update-password/scenarios/f3) |
+| [2.3.F4. Password confirmation is not match.](/my-account/update-password/scenarios/f4) |
 
 ### 3.1. Import Chart of Account
 
