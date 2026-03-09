@@ -7,6 +7,7 @@ export default withMermaid({
   title: 'Simple Accounting',
   description: 'Documentation of Simple Accounting',
   cleanUrls: true,
+  ignoreDeadLinks: true,
   srcDir: './src',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png' }],
