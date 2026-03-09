@@ -12,7 +12,7 @@
 
 ## 3.1.F1. User isn't authenticated.
 
-- `GIVEN` user visit `/chart-of-accounts` url without signin
+- `GIVEN` user visit `/chart-of-accounts/import` url without signin
 - `THEN` user redirected to `Sign In` page
 
 ![alt text](./signin-page.png){.shadow-img}

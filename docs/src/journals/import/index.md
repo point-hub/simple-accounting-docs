@@ -30,10 +30,9 @@ The Import Journal feature allows users to upload transaction data in bulk in `.
 ## Scenarios
 
 - **Success Scenarios**
-  1. Journal data is successfully imported.
+  - [**4.1.S1. User successfully import Journals.**](/journals/import/scenarios/s1)
 - **Failure Scenarios**
-  1. User is not authenticated.
-  2. The uploaded file is not in ".csv" format.
-  3. The `coa_number` and `coa_name` in Journal is not match with data in Master Coa.
-  4. The required field is empty.
-  5. Journal debit and credit amount are not balanced.
+  - [4.1.F1. User isn't authenticated.](/journals/import/scenarios/f1)
+  - [4.1.F2. The required fields is empty.](/journals/import/scenarios/f2)
+  - [4.1.F3. The coa_number and coa_name do not match any record in the Chart of Accounts.](/journals/import/scenarios/f3)
+  - [4.1.F4. The journal debit and credit amounts are not balanced.](/journals/import/scenarios/f4)
