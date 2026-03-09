@@ -45,6 +45,6 @@ It summarizes income, costs, and expenses to measure business performance.
 ## Scenarios
 
 - **Success Scenarios**
-  - [5.4.S1 Filtered report.](/accounting-reports/subledger/scenarios/s1)
+  - [5.4.S1 Filtered report.](/accounting-reports/profit-and-loss/scenarios/s1)
 - **Failure Scenarios**
-  - [5.4.F1 User isn't authenticated.](/accounting-reports/subledger/scenarios/f1)
+  - [5.4.F1 User isn't authenticated.](/accounting-reports/profit-and-loss/scenarios/f1)
