@@ -7,11 +7,6 @@ The journal list supports pagination to ensure optimal performance and usability
 ## Scenarios
 
 - **Success Scenarios**
-  1. Display paginated journal data.
-  2. Filter journal data by date.
-  3. Filter journal data by form_number.
-  4. Sort journal data by date.
-  5. Sort journal data by form_number.
+  - [4.2.S1. Display paginated chart of accounts data.](/chart-of-accounts/list/scenarios/s1)
 - **Failure Scenarios**
-  1. User is not authenticated.
-  
+  - [4.2.F1. User isn't authenticated.](/chart-of-accounts/list/scenarios/f1)

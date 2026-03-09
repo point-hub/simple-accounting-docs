@@ -182,14 +182,11 @@ outline: deep
 
 | 3.2.S Success Scenarios |
 | ---- |
-| [3.2.S1. User successfully import COA.](/chart-of-accounts/import/scenarios/s1) |
+| [3.2.S1. Display paginated chart of accounts data.](/chart-of-accounts/import/scenarios/s1) |
 
 | 3.2.F Failed Scenarios |
 | ---- |
 | [3.2.F1. User isn't authenticated.](/chart-of-accounts/import/scenarios/f1) |
-| [3.2.F2. The required fields is empty.](/chart-of-accounts/import/scenarios/f2) |
-| [3.2.F3. The coa_number is already exists.](/chart-of-accounts/import/scenarios/f3) |
-| [3.2.F4. The coa_name is already exists.](/chart-of-accounts/import/scenarios/f4) |
 
 ### 4.1. Import Journal
 
@@ -208,14 +205,11 @@ outline: deep
 
 | 4.2.S Success Scenarios |
 | ---- |
-| [4.2.S1. User successfully import COA.](/journals/list/scenarios/s1) |
+| [4.2.S1. Display paginated journals data.](/journals/list/scenarios/s1) |
 
 | 4.2.F Failed Scenarios |
 | ---- |
 | [4.2.F1. User isn't authenticated.](/journals/list/scenarios/f1) |
-| [4.2.F2. The required fields is empty.](/journals/list/scenarios/f2) |
-| [4.2.F3. The coa_number is already exists.](/journals/list/scenarios/f3) |
-| [4.2.F4. The coa_name is already exists.](/journals/list/scenarios/f4) |
 
 ### 5.1. General Ledger
 
