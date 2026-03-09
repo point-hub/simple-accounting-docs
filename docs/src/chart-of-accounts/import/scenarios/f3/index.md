@@ -3,14 +3,14 @@
 ## Scenarios
 
 - **Success Scenarios**
-  - [**3.1.S1. User successfully import COA.**](/chart-of-accounts/import/scenarios/s1)
+  - [3.1.S1. User successfully import COA.](/chart-of-accounts/import/scenarios/s1)
 - **Failure Scenarios**
   - [3.1.F1. User isn't authenticated.](/chart-of-accounts/import/scenarios/f1)
   - [3.1.F2. The required fields is empty.](/chart-of-accounts/import/scenarios/f2)
-  - [3.1.F3. The coa_number is already exists.](/chart-of-accounts/import/scenarios/f3)
+  - [**3.1.F3. The coa_number is already exists.**](/chart-of-accounts/import/scenarios/f3)
   - [3.1.F4. The coa_name is already exists.](/chart-of-accounts/import/scenarios/f4)
 
-## 3.1.S1. User successfully import COA.
+## 3.1.F3. The coa_number is already exists.
 
 - `GIVEN` user already logged in
 - `AND` user visit home
@@ -29,8 +29,7 @@
 ![alt text](./coa-import.png){.shadow-img}
 
 - `WHEN` user click "Save" button
-- `THEN` user redirected to "Chart of Accounts - List" page
-- `AND` user see notification "Import success"
-- `AND` user see the data imported
+- `THEN` user see notification "Import failed"
+- `AND` user see notification "The coa_number field contains duplicate values"
 
-![alt text](./coa-import-success.png){.shadow-img}
+![alt text](./coa-import-failed.png){.shadow-img}
