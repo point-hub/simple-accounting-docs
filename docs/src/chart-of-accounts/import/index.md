@@ -21,7 +21,7 @@ Below are the available `coa_type` and `coa_category` options used to classify a
 | Asset     | Fixed Asset              | Long-term tangible assets used in operations (equipment, vehicles, buildings).                                                 |
 | Asset     | Accumulated Depreciation | Contra-asset account that reduces the book value of fixed assets over time.                                                    |
 | Liability | Current Liability        | Short-term obligations due within one year (accounts payable, accrued expenses, short-term loans).                             |
-| Liability | long-Term Liability      | Obligations due after one year (bank loans, long-term financing).                                                              |
+| Liability | Long-Term Liability      | Obligations due after one year (bank loans, long-term financing).                                                              |
 | Equity    | Owner Equity             | Capital invested by the owner or shareholders.                                                                                 |
 | Equity    | Dividend                 | Distribution of profits to the owner or shareholders. shareholders.                                                            |
 | Equity    | Retained Earning         | Accumulated profits retained in the business from previous periods.                                                            |
