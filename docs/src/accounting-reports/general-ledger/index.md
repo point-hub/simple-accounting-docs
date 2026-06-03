@@ -3,7 +3,7 @@
 The General Ledger is a detailed report that displays all financial transactions grouped by account (COA). It shows the movement of debit and credit entries for each account over a specific period.
 
 :::info
-In Simple Accounting, the General Ledger is generated automatically from [imported journals](/journals/import).
+In Simple Accounting, the General Ledger is generated automatically from [imported journals](/journals/import/).
 :::
 
 ## Example
@@ -17,6 +17,6 @@ In Simple Accounting, the General Ledger is generated automatically from [import
 ## Scenarios
 
 - **Success Scenarios**
-  - [5.1.S1 Filtered report.](/accounting-reports/general-ledger/scenarios/s1)
+  - [5.1.S1. User can view filtered general ledger report.](/accounting-reports/general-ledger/scenarios/s1/)
 - **Failure Scenarios**
-  - [5.1.F1 User isn't authenticated.](/accounting-reports/general-ledger/scenarios/f1)
+  - [5.1.F1. General ledger report fails when user is not authenticated.](/accounting-reports/general-ledger/scenarios/f1/)

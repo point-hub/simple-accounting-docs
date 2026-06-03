@@ -2,10 +2,10 @@
 
 A Subledger (Subsidiary Ledger) is a detailed report that breaks down transactions of a specific account into smaller, more specific records.
 
-While the [General Ledger](/accounting-reports/general-ledger) shows total amounts per account, the Subledger provides detailed information behind those totals.
+While the [General Ledger](/accounting-reports/general-ledger/) shows total amounts per account, the Subledger provides detailed information behind those totals.
 
 :::info
-In Simple Accounting, the General Ledger is generated automatically from [imported journals](/journals/import).
+In Simple Accounting, the General Ledger is generated automatically from [imported journals](/journals/import/).
 :::
 
 ## Example
@@ -19,6 +19,6 @@ In Simple Accounting, the General Ledger is generated automatically from [import
 ## Scenarios
 
 - **Success Scenarios**
-  - [5.2.S1 Filtered report.](/accounting-reports/subledger/scenarios/s1)
+  - [5.2.S1. User can view filtered subledger report.](/accounting-reports/subledger/scenarios/s1/)
 - **Failure Scenarios**
-  - [5.2.F1 User isn't authenticated.](/accounting-reports/subledger/scenarios/f1)
+  - [5.2.F1. Subledger report fails when user is not authenticated.](/accounting-reports/subledger/scenarios/f1/)

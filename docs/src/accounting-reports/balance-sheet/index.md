@@ -9,7 +9,7 @@ It summarizes what the business:
 - Invested by the owner (Equity)
 
 :::info
-In Simple Accounting, the General Ledger is generated automatically from [imported journals](/journals/import).
+In Simple Accounting, the General Ledger is generated automatically from [imported journals](/journals/import/).
 
 - Asset accounts are grouped under coa_type = assets
 - Liability accounts are grouped under coa_type = liability
@@ -33,6 +33,6 @@ The Balance Sheet is based on the fundamental accounting equation
 ## Scenarios
 
 - **Success Scenarios**
-  - [5.5.S1 Report filtered by date.](/accounting-reports/balance-sheet/scenarios/s1)
+  - [5.5.S1. User can view filtered balance sheet report.](/accounting-reports/balance-sheet/scenarios/s1/)
 - **Failure Scenarios**
-  - [5.5.F1 User isn't authenticated.](/accounting-reports/balance-sheet/scenarios/f1)
+  - [5.5.F1. Balance sheet report fails when user is not authenticated.](/accounting-reports/balance-sheet/scenarios/f1/)

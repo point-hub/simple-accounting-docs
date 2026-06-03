@@ -1,13 +1,6 @@
 # Scenario 4.2. List Journals
 
-## Scenarios
-
-- **Success Scenarios**
-  - [**4.2.S1. Display paginated journals data.**](/journals/list/scenarios/s1)
-- **Failure Scenarios**
-  - [4.2.F1. User isn't authenticated.](/journals/list/scenarios/f1)
-
-## 4.2.S1. Display paginated journals data.
+## 4.2.S1. User can view paginated journals data.
 
 - `GIVEN` user already logged in
 - `AND` user visit home

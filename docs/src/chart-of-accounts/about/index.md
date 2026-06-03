@@ -8,5 +8,5 @@ A Chart of Accounts (COA) is a structured list of all accounts used by a company
 
 ## Features
 
-1. [Import Chart of Account](/chart-of-accounts/import)
-2. [List Chart of Account](/chart-of-accounts/list)
+1. [Import Chart of Account](/chart-of-accounts/import/)
+2. [List Chart of Account](/chart-of-accounts/list/)

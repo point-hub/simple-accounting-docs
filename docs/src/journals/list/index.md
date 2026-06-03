@@ -7,6 +7,6 @@ The journal list supports pagination to ensure optimal performance and usability
 ## Scenarios
 
 - **Success Scenarios**
-  - [4.2.S1. Display paginated journals data.](/journals/list/scenarios/s1)
+  - [4.2.S1. User can view paginated journals data.](/journals/list/scenarios/s1/)
 - **Failure Scenarios**
-  - [4.2.F1. User isn't authenticated.](/journals/list/scenarios/f1)
+  - [4.2.F1. Journal list retrieval fails when user is not authenticated.](/journals/list/scenarios/f1/)

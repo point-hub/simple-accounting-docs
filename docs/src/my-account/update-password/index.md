@@ -7,9 +7,9 @@ Unlike Reset Password, this feature is used when the user still remembers their 
 ## Scenarios
 
 - **Success Scenarios**
-  - [2.3.S1. User successfully update password.](/my-account/update-password/scenarios/s1)
+  - [2.3.S1. User can update password successfully.](/my-account/update-password/scenarios/s1/)
 - **Failure Scenarios**
-  - [2.3.F1. User isn't authenticated.](/my-account/update-password/scenarios/f1)
-  - [2.3.F2. The required field is empty.](/my-account/update-password/scenarios/f2)
-  - [2.3.F3. Password is not strong enough.](/my-account/update-password/scenarios/f3)
-  - [2.3.F4. Password confirmation is not match.](/my-account/update-password/scenarios/f4)
+  - [2.3.F1. Password update fails when user is not authenticated.](/my-account/update-password/scenarios/f1/)
+  - [2.3.F2. Password update fails when required fields are empty.](/my-account/update-password/scenarios/f2/)
+  - [2.3.F3. Password update fails when password is not strong enough.](/my-account/update-password/scenarios/f3/)
+  - [2.3.F4. Password update fails when password confirmation does not match.](/my-account/update-password/scenarios/f4/)

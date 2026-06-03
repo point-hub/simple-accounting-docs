@@ -1,13 +1,6 @@
 # Scenario 5.3. Trial Balance
 
-## Scenarios
-
-- **Success Scenarios**
-  - [**5.3.S1 Filtered report.**](/accounting-reports/trial-balance/scenarios/s1)
-- **Failure Scenarios**
-  - [5.3.F1 User isn't authenticated.](/accounting-reports/trial-balance/scenarios/f1)
-
-## 5.3.S1 Filtered report.
+## 5.3.S1. User can view filtered trial balance report.
 
 - `GIVEN` user already logged in
 - `AND` user visit home

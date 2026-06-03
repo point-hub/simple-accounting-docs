@@ -1,13 +1,6 @@
 # Scenario 5.1. General Ledger
 
-## Scenarios
-
-- **Success Scenarios**
-  - [**5.1.S1 Filtered report.**](/accounting-reports/general-ledger/scenarios/s1)
-- **Failure Scenarios**
-  - [5.1.F1 User isn't authenticated.](/accounting-reports/general-ledger/scenarios/f1)
-
-## 5.1.S1 Filtered report.
+## 5.1.S1. User can view filtered general ledger report.
 
 - `GIVEN` user already logged in
 - `AND` user visit home

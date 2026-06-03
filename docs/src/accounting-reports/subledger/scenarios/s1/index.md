@@ -1,13 +1,6 @@
 # Scenario 5.2. Subledger
 
-## Scenarios
-
-- **Success Scenarios**
-  - [**5.2.S1 Filtered report.**](/accounting-reports/subledger/scenarios/s1)
-- **Failure Scenarios**
-  - [5.2.F1 User isn't authenticated.](/accounting-reports/subledger/scenarios/f1)
-
-## 5.2.S1 Filtered report.
+## 5.2.S1. User can view filtered subledger report.
 
 - `GIVEN` user already logged in
 - `AND` user visit home

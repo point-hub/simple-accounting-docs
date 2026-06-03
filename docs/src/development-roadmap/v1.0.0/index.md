@@ -26,31 +26,31 @@ outline: deep
 
 ## Features
 
-| Feature                                             | Description                                                                                  |
-|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [1. Auth](/auth/about)                              | User authentication and access control features to secure the application.                   |
-| [1.1. Signup](/auth/signup)                         | Allows new users to create an account using email and password.                              |
-| [1.2. Verify Email](/auth/verify-email)             | Sends a verification email to confirm the user’s email address.                              |
-| [1.3. Signin](/auth/signin)                         | Enables registered users to log in to the application.                                       |
-| [1.4. Signout](/auth/signout)                       | Allows users to securely log out of the application.                                         |
-| [1.5. Forgot Password](/auth/forgot-password)       | Provides a way for users to request a password reset link if they forget their password.     |
-| [1.6. Reset Password](/auth/reset-password)         | Allows users to set a new password after verifying their identity.                           |
-| [2. My Account](/my-account/about)                  | User profile management features to update personal information.                             |
-| [2.1. Update Username](/my-account/update-username) | Allows users to change their display username.                                               |
-| [2.2. Update Email](/my-account/update-email)       | Allows users to update their email address.                                                  |
-| [2.3. Update Password](/my-account/update-password) | Enables users to change their account password.                                              |
-| [3. Chart of Accounts](/chart-of-accounts/about)                      | Structured list of all accounts used by a company to record financial transactions.              |
-| [3.1. Import Chart of Account](/chart-of-accounts/import)             | Upload chart of account data in bulk (CSV/Excel).         |
-| [3.1. List Chart of Account](/chart-of-accounts/)                     | Displays all chart of accounts entries with pagination, filters, and sorting options.                  |
-| [4. Journals](/journals/about)                      | Transaction management features for recording and reviewing financial journals.              |
-| [4.1. Import Journal](/journals/import)             | Upload transaction data in bulk (CSV/Excel) to create journal entries automatically.         |
-| [4.1. List Journal](/journals/)                     | Displays all journal entries with pagination, filters, and sorting options.                  |
-| [5. Accounting Reports](/accounting-reports/about)                               | Financial reporting features to analyze company performance.                                 |
-| [5.1. General Ledger](/accounting-reports/general-ledger)                                 | Shows all account transactions grouped by account, for tracking debit and credit balances.   |
-| [5.2. Subledger](/accounting-reports/subledger)                                      | Detailed subsidiary ledger for accounts receivable, accounts payable, or other sub-accounts. |
-| [5.3. Trial Balance](/accounting-reports/trial-balance)                                  | Summarizes all account balances to verify that total debits equal total credits.             |
-| [5.4. Profit & Loss](/accounting-reports/profit-and-loss)                                  | Reports revenues, costs, and expenses to determine net income for a period.                  |
-| [5.5. Balance Sheet](/accounting-reports/balance-sheet)                                  | Displays the company’s assets, liabilities, and equity at a specific point in time.          |
+| Feature                                                    | Description                                                                                  |
+|------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [1. Auth](/auth/about/)                                    | User authentication and access control features to secure the application.                   |
+| [1.1. Signup](/auth/signup/)                               | Allows new users to create an account using email and password.                              |
+| [1.2. Verify Email](/auth/verify-email/)                   | Sends a verification email to confirm the user’s email address.                              |
+| [1.3. Signin](/auth/signin/)                               | Enables registered users to log in to the application.                                       |
+| [1.4. Signout](/auth/signout/)                             | Allows users to securely log out of the application.                                         |
+| [1.5. Forgot Password](/auth/forgot-password/)             | Provides a way for users to request a password reset link if they forget their password.     |
+| [1.6. Reset Password](/auth/reset-password/)               | Allows users to set a new password after verifying their identity.                           |
+| [2. My Account](/my-account/about/)                        | User profile management features to update personal information.                             |
+| [2.1. Update Username](/my-account/update-username/)       | Allows users to change their display username.                                               |
+| [2.2. Update Email](/my-account/update-email/)             | Allows users to update their email address.                                                  |
+| [2.3. Update Password](/my-account/update-password/)       | Enables users to change their account password.                                              |
+| [3. Chart of Accounts](/chart-of-accounts/about/)          | Structured list of all accounts used by a company to record financial transactions.          |
+| [3.1. Import Chart of Account](/chart-of-accounts/import/) | Upload chart of account data in bulk (CSV/Excel).                                            |
+| [3.2. List Chart of Account](/chart-of-accounts/list/)     | Displays all chart of accounts entries with pagination, filters, and sorting options.        |
+| [4. Journals](/journals/about/)                            | Transaction management features for recording and reviewing financial journals.              |
+| [4.1. Import Journal](/journals/import/)                   | Upload transaction data in bulk (CSV/Excel) to create journal entries automatically.         |
+| [4.2. List Journal](/journals/list/)                       | Displays all journal entries with pagination, filters, and sorting options.                  |
+| [5. Accounting Reports](/accounting-reports/about/)        | Financial reporting features to analyze company performance.                                 |
+| [5.1. General Ledger](/accounting-reports/general-ledger/) | Shows all account transactions grouped by account, for tracking debit and credit balances.   |
+| [5.2. Subledger](/accounting-reports/subledger/)           | Detailed subsidiary ledger for accounts receivable, accounts payable, or other sub-accounts. |
+| [5.3. Trial Balance](/accounting-reports/trial-balance/)   | Summarizes all account balances to verify that total debits equal total credits.             |
+| [5.4. Profit & Loss](/accounting-reports/profit-and-loss/) | Reports revenues, costs, and expenses to determine net income for a period.                  |
+| [5.5. Balance Sheet](/accounting-reports/balance-sheet/)   | Displays the company’s assets, liabilities, and equity at a specific point in time.          |
 
 ## Sitemap
 
@@ -68,195 +68,195 @@ outline: deep
 
 | 1.1.S Success Scenarios |
 | ---- |
-| [1.1.S1. User successfully signup](/auth/signup/scenarios/s1) |
+| [1.1.S1. User can sign up successfully.](/auth/signup/scenarios/s1/) |
 
 | 1.1.F Failed Scenarios |
-| ---- |
-| [1.1.F1. The required fields is empty.](/auth/signup/scenarios/f1) |
-| [1.1.F2. Username is already exists](/auth/signup/scenarios/f2) |
-| [1.1.F3. Email is already exists](/auth/signup/scenarios/f3) |
-| [1.1.F4. Password is not strong enough.](/auth/signup/scenarios/f4) |
-| [1.1.F5. Password confirmation is not match.](/auth/signup/scenarios/f5) |
+| --- |
+| [1.1.F1. Sign up fails when required fields are empty.](/auth/signup/scenarios/f1/) |
+| [1.1.F2. Sign up fails when username already exists.](/auth/signup/scenarios/f2/) |
+| [1.1.F3. Sign up fails when email already exists.](/auth/signup/scenarios/f3/) |
+| [1.1.F4. Sign up fails when password is not strong enough.](/auth/signup/scenarios/f4/) |
+| [1.1.F5. Sign up fails when password confirmation does not match.](/auth/signup/scenarios/f5/) |
 
 ### 1.2. Verify Email
 
 | 1.2.S Success Scenarios |
 | ---- |
-| [1.2.S1. User successfully signup.](/auth/verify-email/scenarios/s1) |
+| [1.2.S1. User can verify email successfully.](/auth/verify-email/scenarios/s1/) |
 
 | 1.2.F Failed Scenarios |
 | ---- |
-| 1.2.F1 [1.2.F1. The required fields is empty.](/auth/verify-email/scenarios/f1) |
-| 1.2.F2 [1.2.F2. The verification code is invalid.](/auth/verify-email/scenarios/f2) |
+| [1.2.F1. Email verification fails when required fields are empty.](/auth/verify-email/scenarios/f1/) |
+| [1.2.F2. Email verification fails when verification code is invalid.](/auth/verify-email/scenarios/f2/) |
 
 ### 1.3. Signin
 
 | 1.3.S Success Scenarios |
 | ---- |
-| [1.3.S1. User successfully signin.](/auth/signin/scenarios/s1) |
+| [1.3.S1. User can sign in successfully.](/auth/signin/scenarios/s1/) |
 
 | 1.3.F Failed Scenarios |
 | ---- |
-| [1.3.F1. The credential is not match.](/auth/signin/scenarios/f1) |
+| [1.3.F1. Sign in fails when credentials do not match.](/auth/signin/scenarios/f1/) |
 
 ### 1.4. Signout
 
 | 1.4.S Success Scenarios |
 | ---- |
-| 1.4.S1 [1.4.S1. User successfully signout.](/auth/signout/scenarios/s1) |
+| [1.4.S1. User can sign out successfully.](/auth/signout/scenarios/s1/) |
 
 ### 1.5. Forgot Password
 
 | 1.5.S Success Scenarios |
 | ---- |
-| 1.5.S1 [1.5.S1. User successfully request reset password.](/auth/forgot-password/scenarios/s1) |
+| [1.5.S1. User can request password reset successfully.](/auth/forgot-password/scenarios/s1/) |
 
 | 1.5.F Failed Scenarios |
-| ---- |
-| [1.5.F1. The required field is empty.](/auth/forgot-password/scenarios/f1) |
-| [1.5.F2. The email is not found.](/auth/forgot-password/scenarios/f2) |
+| --- |
+| [1.5.F1. Password reset request fails when required fields are empty.](/auth/forgot-password/scenarios/f1/) |
+| [1.5.F2. Password reset request fails when email is not found.](/auth/forgot-password/scenarios/f2/) |
 
 ### 1.6. Reset Password
 
 | 1.6.S Success Scenarios |
 | ---- |
-| [1.6.S1. User successfully reset password.](/auth/reset-password/scenarios/s1) |
+| [1.6.S1. User can reset password successfully.](/auth/reset-password/scenarios/s1/) |
 
 | 1.6.F Failed Scenarios |
 | ---- |
-| [1.6.F1. The required field is empty.](/auth/reset-password/scenarios/f1) |
-| [1.6.F2. Password is not strong enough.](/auth/reset-password/scenarios/f2) |
-| [1.6.F3. Password confirmation is not match.](/auth/reset-password/scenarios/f3) |
+| [1.6.F1. Password reset fails when required fields are empty.](/auth/reset-password/scenarios/f1/) |
+| [1.6.F2. Password reset fails when password is not strong enough.](/auth/reset-password/scenarios/f2/) |
+| [1.6.F3. Password reset fails when password confirmation does not match.](/auth/reset-password/scenarios/f3/) |
 
 ### 2.1. Update Username
 
 | 2.1.S Success Scenarios |
 | ---- |
-| [2.1.S1. User successfully update username.](/auth/reset-password/scenarios/s1) |
+| [2.1.S1. User can update username successfully.](/my-account/update-username/scenarios/s1/) |
 
 | 2.1.F Failed Scenarios |
 | ---- |
-| [2.1.F1. User isn't authenticated.](/my-account/update-username/scenarios/f1) |
-| [2.1.F2. The required field is empty.](/my-account/update-username/scenarios/f2) |
-| [2.1.F3. The username is already exists.](/my-account/update-username/scenarios/f3) |
+| [2.1.F1. Username update fails when user is not authenticated.](/my-account/update-username/scenarios/f1/) |
+| [2.1.F2. Username update fails when required fields are empty.](/my-account/update-username/scenarios/f2/) |
+| [2.1.F3. Username update fails when username already exists.](/my-account/update-username/scenarios/f3/) |
 
 ### 2.2. Update Email
 
 | 2.2.S Success Scenarios |
 | ---- |
-| [2.2.S1. User successfully update email.](/my-account/update-email/scenarios/s1) |
+| [2.2.S1. User can update email successfully.](/my-account/update-email/scenarios/s1/) |
 
 | 2.2.F Failed Scenarios |
 | ---- |
-| [2.2.F1. User isn't authenticated.](/my-account/update-email/scenarios/f1) |
-| [2.2.F2. The required field is empty.](/my-account/update-email/scenarios/f2) |
-| [2.2.F3. The Email is already exists.](/my-account/update-email/scenarios/f3) |
+| [2.2.F1. Email update fails when user is not authenticated.](/my-account/update-email/scenarios/f1/) |
+| [2.2.F2. Email update fails when required fields are empty.](/my-account/update-email/scenarios/f2/) |
+| [2.2.F3. Email update fails when email already exists.](/my-account/update-email/scenarios/f3/) |
 
 ### 2.3. Update Password
 
 | 2.3.S Success Scenarios |
 | ---- |
-| [2.3.S1. User successfully reset password.](/my-account/update-password/scenarios/s1) |
+| [2.3.S1. User can update password successfully.](/my-account/update-password/scenarios/s1/) |
 
 | 2.3.F Failed Scenarios |
 | ---- |
-| [2.3.F1. User isn't authenticated.](/my-account/update-password/scenarios/f1) |
-| [2.3.F2. The required field is empty.](/my-account/update-password/scenarios/f2) |
-| [2.3.F3. Password is not strong enough.](/my-account/update-password/scenarios/f3) |
-| [2.3.F4. Password confirmation is not match.](/my-account/update-password/scenarios/f4) |
+| [2.3.F1. Password update fails when user is not authenticated.](/my-account/update-password/scenarios/f1/) |
+| [2.3.F2. Password update fails when required fields are empty.](/my-account/update-password/scenarios/f2/) |
+| [2.3.F3. Password update fails when password is not strong enough.](/my-account/update-password/scenarios/f3/) |
+| [2.3.F4. Password update fails when password confirmation does not match.](/my-account/update-password/scenarios/f4/) |
 
 ### 3.1. Import Chart of Account
 
 | 3.1.S Success Scenarios |
 | ---- |
-| [3.1.S1. User successfully import COA.](/chart-of-accounts/import/scenarios/s1) |
+| [3.1.S1. User can import chart of accounts (COA) successfully.](/chart-of-accounts/import/scenarios/s1/) |
 
 | 3.1.F Failed Scenarios |
 | ---- |
-| [3.1.F1. User isn't authenticated.](/chart-of-accounts/import/scenarios/f1) |
-| [3.1.F2. The required fields is empty.](/chart-of-accounts/import/scenarios/f2) |
-| [3.1.F3. The coa_number is already exists.](/chart-of-accounts/import/scenarios/f3) |
-| [3.1.F4. The coa_name is already exists.](/chart-of-accounts/import/scenarios/f4) |
+| [3.1.F1. COA import fails when user is not authenticated.](/chart-of-accounts/import/scenarios/f1/) |
+| [3.1.F2. COA import fails when required fields are empty.](/chart-of-accounts/import/scenarios/f2/) |
+| [3.1.F3. COA import fails when COA number already exists.](/chart-of-accounts/import/scenarios/f3/) |
+| [3.1.F4. COA import fails when COA name already exists.](/chart-of-accounts/import/scenarios/f4/) |
 
 ### 3.2. List Chart of Account
 
 | 3.2.S Success Scenarios |
 | ---- |
-| [3.2.S1. Display paginated chart of accounts data.](/chart-of-accounts/import/scenarios/s1) |
+| [3.2.S1. User can view paginated chart of accounts data.](/chart-of-accounts/import/scenarios/s1/) |
 
 | 3.2.F Failed Scenarios |
 | ---- |
-| [3.2.F1. User isn't authenticated.](/chart-of-accounts/import/scenarios/f1) |
+| [3.2.F1. COA list retrieval fails when user is not authenticated.](/chart-of-accounts/import/scenarios/f1/) |
 
 ### 4.1. Import Journal
 
 | 4.1.S Success Scenarios |
 | ---- |
-| [4.1.S1. User successfully import journal.](/journals/import/scenarios/s1) |
+| [4.1.S1. User can import journals successfully.](/journals/import/scenarios/s1/) |
 
 | 4.1.F Failed Scenarios |
 | ---- |
-| [4.1.F1. User isn't authenticated.](/journals/import/scenarios/f1) |
-| [4.1.F2. The required fields is empty.](/journals/import/scenarios/f2) |
-| [4.1.F3. The coa_number is already exists.](/journals/import/scenarios/f3) |
-| [4.1.F4. The coa_name is already exists.](/journals/import/scenarios/f4) |
+| [4.1.F1. Journal import fails when user is not authenticated.](/journals/import/scenarios/f1/) |
+| [4.1.F2. Journal import fails when required fields are empty.](/journals/import/scenarios/f2/) |
+| [4.1.F3. Journal import fails when COA number or COA name does not match any record.](/journals/import/scenarios/f3/) |
+| [4.1.F4. Journal import fails when debit and credit amounts are not balanced.](/journals/import/scenarios/f4/) |
 
 ### 4.2. List Journal
 
 | 4.2.S Success Scenarios |
 | ---- |
-| [4.2.S1. Display paginated journals data.](/journals/list/scenarios/s1) |
+| [4.2.S1. User can view paginated journals data.](/journals/list/scenarios/s1/) |
 
 | 4.2.F Failed Scenarios |
 | ---- |
-| [4.2.F1. User isn't authenticated.](/journals/list/scenarios/f1) |
+| [4.2.F1. Journal list retrieval fails when user is not authenticated.](/journals/list/scenarios/f1/) |
 
 ### 5.1. General Ledger
 
 | 5.1.S Success Scenarios |
 | ---- |
-| [5.1.S1 Filtered report.](/accounting-reports/general-ledger/scenarios/s1) |
+| [5.1.S1. User can view filtered general ledger report.](/accounting-reports/general-ledger/scenarios/s1/) |
 
 | 5.1.F Failed Scenarios |
 | ---- |
-| [5.1.F1. User isn't authenticated.](/accounting-reports/general-ledger/scenarios/f1) |
+| [5.1.F1. General ledger report fails when user is not authenticated.](/accounting-reports/general-ledger/scenarios/f1/) |
 
 ### 5.2. Subledger
 
 | 5.2.S Success Scenarios |
 | ---- |
-| [5.2.S1 Filtered report.](/accounting-reports/subledger/scenarios/s1) |
+| [5.2.S1. User can view filtered subledger report.](/accounting-reports/subledger/scenarios/s1/) |
 
 | 5.2.F Failed Scenarios |
 | ---- |
-| [5.2.F1. User isn't authenticated.](/accounting-reports/subledger/scenarios/f1) |
+| [5.2.F1. Subledger report fails when user is not authenticated.](/accounting-reports/subledger/scenarios/f1/) |
 
 ### 5.3. Trial Balance
 
 | 5.3.S Success Scenarios |
 | ---- |
-| [5.3.S1 Filtered report.](/accounting-reports/trial-balance/scenarios/s1) |
+| [5.3.S1. User can view filtered trial balance report.](/accounting-reports/trial-balance/scenarios/s1/) |
 
 | 5.3.F Failed Scenarios |
 | ---- |
-| [5.3.F1. User isn't authenticated.](/accounting-reports/trial-balance/scenarios/f1) |
+| [5.3.F1. Trial balance report fails when user is not authenticated.](/accounting-reports/trial-balance/scenarios/f1/) |
 
 ### 5.4. Profit & Loss
 
 | 5.4.S Success Scenarios |
 | ---- |
-| [5.4.S1 Filtered report.](/accounting-reports/profit-and-loss/scenarios/s1) |
+| [5.4.S1. User can view filtered profit and loss report.](/accounting-reports/profit-and-loss/scenarios/s1/) |
 
 | 5.4.F Failed Scenarios |
 | ---- |
-| [5.4.F1. User isn't authenticated.](/accounting-reports/profit-and-loss/scenarios/f1) |
+| [5.4.F1. Profit and loss report fails when user is not authenticated.](/accounting-reports/profit-and-loss/scenarios/f1/) |
 
 ### 5.5. Balance Sheet
 
 | 5.5.S Success Scenarios |
 | ---- |
-| [5.5.S1 Filtered report.](/accounting-reports/balance-sheet/scenarios/s1) |
+| [5.5.S1. User can view filtered balance sheet report.](/accounting-reports/balance-sheet/scenarios/s1/) |
 
 | 5.5.F Failed Scenarios |
 | ---- |
-| [5.5.F1. User isn't authenticated.](/accounting-reports/balance-sheet/scenarios/f1) |
+| [5.5.F1. Balance sheet report fails when user is not authenticated.](/accounting-reports/balance-sheet/scenarios/f1/) |

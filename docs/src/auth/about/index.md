@@ -4,9 +4,9 @@ The Auth handles all user authentication and access control for the Simple Accou
 
 ## Features
 
-- [Signup](/auth/signup)
-- [Verify Email](/auth/verify-email)
-- [Signin](/auth/signin)
-- [Signout](/auth/signout)
-- [Forgot Password](/auth/forgot-password)
-- [Reset Password](/auth/reset-password)
+- [Signup](/auth/signup/)
+- [Verify Email](/auth/verify-email/)
+- [Signin](/auth/signin/)
+- [Signout](/auth/signout/)
+- [Forgot Password](/auth/forgot-password/)
+- [Reset Password](/auth/reset-password/)

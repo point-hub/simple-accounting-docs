@@ -1,13 +1,6 @@
 # Scenario 5.2. Subledger
 
-## Scenarios
-
-- **Success Scenarios**
-  - [5.2.S1 Filtered report.](/accounting-reports/subledger/scenarios/s1)
-- **Failure Scenarios**
-  - [**5.2.F1 User isn't authenticated.**](/accounting-reports/subledger/scenarios/f1)
-
-## 5.2.F1. User isn't authenticated.
+## 5.2.F1. Subledger report fails when user is not authenticated.
 
 - `GIVEN` user visit `/accounting-reports/subledger` url without signin
 - `THEN` user redirected to `Sign In` page

@@ -7,8 +7,8 @@ This page is accessed through a secure, time-limited reset link sent to the user
 ## Scenarios
 
 - **Success Scenarios**
-  - [1.6.S1. User successfully reset password.](/auth/reset-password/scenarios/s1)
+  - [1.6.S1. User can reset password successfully.](/auth/reset-password/scenarios/s1/)
 - **Failure Scenarios**
-  - [1.6.F1. The required field is empty.](/auth/reset-password/scenarios/f1)
-  - [1.6.F2. Password is not strong enough.](/auth/reset-password/scenarios/f2)
-  - [1.6.F3. Password confirmation is not match.](/auth/reset-password/scenarios/f3)
+  - [1.6.F1. Password reset fails when required fields are empty.](/auth/reset-password/scenarios/f1/)
+  - [1.6.F2. Password reset fails when password is not strong enough.](/auth/reset-password/scenarios/f2/)
+  - [1.6.F3. Password reset fails when password confirmation does not match.](/auth/reset-password/scenarios/f3/)

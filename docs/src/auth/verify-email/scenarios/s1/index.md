@@ -1,14 +1,10 @@
+---
+aside: false
+---
+
 # Scenario 1.2. Verify Email
 
-## Scenarios
-
-- **Success Scenarios**
-  - [**1.2.S1. User successfully signup.**](/auth/verify-email/scenarios/s1)
-- **Failure Scenarios**
-  - [1.2.F1. The required fields is empty.](/auth/verify-email/scenarios/f1)
-  - [1.2.F2. The verification code is invalid.](/auth/verify-email/scenarios/f2)
-
-## 1.2.S1. User successfully verify email
+## 1.2.S1. User can verify email successfully
 
 - `GIVEN` user already filled signup form
 
@@ -49,7 +45,7 @@ const users = [
 
 Before Signup
 
-```ts
+```ts{5-10}
 const users = [
   {
     _id: "69ae0dabf12cfd6a5dd090eb",
@@ -67,7 +63,7 @@ const users = [
 
 After Signup
 
-```ts
+```ts{5-8}
 const users = [
   {
     _id: "69ae0dabf12cfd6a5dd090eb",

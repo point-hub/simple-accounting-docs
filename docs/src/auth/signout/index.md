@@ -5,4 +5,4 @@ The Signout feature allows users to securely log out of the application. It ends
 ## Scenarios
 
 - **Success Scenarios**
-  - [1.4.S1. User successfully signout.](/auth/signout/scenarios/s1)
+  - [1.4.S1. User can sign out successfully.](/auth/signout/scenarios/s1/)

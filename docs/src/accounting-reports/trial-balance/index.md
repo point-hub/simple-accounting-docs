@@ -3,7 +3,7 @@
 A Trial Balance is an accounting report that summarizes the balances of all accounts at a specific point in time. It lists each account and shows its total debit balance or credit balance. The main purpose of the Trial Balance is to ensure that total debits equal total credits.
 
 :::info
-In Simple Accounting, the General Ledger is generated automatically from [imported journals](/journals/import).
+In Simple Accounting, the General Ledger is generated automatically from [imported journals](/journals/import/).
 
 - Transactions are grouped by coa.
 - The system calculates the total debit and total credit for each coa.
@@ -21,6 +21,6 @@ In Simple Accounting, the General Ledger is generated automatically from [import
 ## Scenarios
 
 - **Success Scenarios**
-  - [5.3.S1 Filtered report.](/accounting-reports/trial-balance/scenarios/s1)
+  - [5.3.S1. User can view filtered trial balance report.](/accounting-reports/trial-balance/scenarios/s1/)
 - **Failure Scenarios**
-  - [5.3.F1 User isn't authenticated.](/accounting-reports/trial-balance/scenarios/f1)
+  - [5.3.F1. Trial balance report fails when user is not authenticated.](/accounting-reports/trial-balance/scenarios/f1/)

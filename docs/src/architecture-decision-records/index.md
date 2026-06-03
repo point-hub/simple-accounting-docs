@@ -20,6 +20,7 @@ Each major feature or architectural change is recorded using the following struc
 - **Decision** The selected approach.
 - **Reasoning** The explanation behind the final choice.
 - **Future Considerations** Possible improvements or extensions.
+- **Document History** Contains the timeline of meetings, list of participants, and summaries of discussions related to the decision-making process.
 
 Template to create new Architecture Decision Records
 
@@ -27,4 +28,5 @@ Template to create new Architecture Decision Records
 
 ## Records
 
-- [ADR-001](/architecture-decision-records/001.md)
+- [ADR-001](/architecture-decision-records/001/index.md) - How the import process works?
+- [ADR-002](/architecture-decision-records/002/index.md) - Does the application need to restrict certain users from accessing specific features?
