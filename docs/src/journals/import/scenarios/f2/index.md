@@ -1,3 +1,7 @@
+---
+aside: false
+---
+
 # Scenario 4.1. Import Journals
 
 ## 4.1.F2. Journal import fails when required fields are empty.

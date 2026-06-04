@@ -1,3 +1,7 @@
+---
+aside: false
+---
+
 # Scenario 4.1. Import Journals
 
 ## 4.1.S1. User can import journals successfully.

@@ -1,3 +1,7 @@
+---
+aside: false
+---
+
 # Scenario 4.1. Import Journals
 
 ## 4.1.F1. Journal import fails when user is not authenticated.

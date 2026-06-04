@@ -1,3 +1,7 @@
+---
+aside: false
+---
+
 # Scenario 4.1. Import Journals
 
 ## 4.1.F4. Journal import fails when debit and credit amounts are not balanced.
