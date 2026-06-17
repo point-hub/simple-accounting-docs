@@ -25,4 +25,4 @@ FROM nginx:1.29-alpine as runner
 COPY .nginx/default.conf /etc/nginx/conf.d/default.conf
 
 # copy web files
-COPY --from=builder /home/node/app/docs/.vitepress/dist /usr/share/nginx/html
+COPY --from=builder /app/docs/.vitepress/dist /usr/share/nginx/html
