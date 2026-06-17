@@ -12,7 +12,7 @@ For example, 01/02/2026 was intended to represent `1 February 2026`, as the expe
 
 ## Solution
 
-For the template file, we use the standard ISO 8601 date-time format `yyyy-MM-dd HH:mm:ss` as an example to help users understand the expected date format. 
+For the template file, we use the standard ISO 8601 [https://www.iso.org/iso-8601-date-and-time-format.html](https://www.iso.org/iso-8601-date-and-time-format.html) date-time format `yyyy-MM-dd HH:mm:ss` as an example to help users understand the expected date format. 
 
 Additionally, to prevent users from importing files with an incorrect date format, we added a new validation failure scenario to check the date format before processing the import.
 
