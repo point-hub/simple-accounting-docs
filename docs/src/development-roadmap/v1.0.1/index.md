@@ -10,6 +10,9 @@ In version [v1.0.0 - Initial Release](/development-roadmap/v1.0.0/) the Journal 
 
 For example, 01/02/2026 was intended to represent `1 February 2026`, as the expected format was dd/MM/yyyy. However, the system interpreted the value using the MM/dd/yyyy format, resulting in `2 January 2026` instead.
 
+**References:**
+- [ADR-003](/architecture-decision-records/003/index.md) How should we handle date formats during the import process to prevent ambiguous date interpretation?
+
 ## Solution
 
 For the template file, we use the standard ISO 8601 [https://www.iso.org/iso-8601-date-and-time-format.html](https://www.iso.org/iso-8601-date-and-time-format.html) date-time format `yyyy-MM-dd HH:mm:ss` as an example to help users understand the expected date format. 

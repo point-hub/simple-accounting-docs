@@ -30,3 +30,4 @@ Template to create new Architecture Decision Records
 
 - [ADR-001](/architecture-decision-records/001/index.md) - How the import process works?
 - [ADR-002](/architecture-decision-records/002/index.md) - Does the application need to restrict certain users from accessing specific features?
+- [ADR-003](/architecture-decision-records/003/index.md) - How should we handle date formats during the import process to prevent ambiguous date interpretation?
