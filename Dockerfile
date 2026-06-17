@@ -1,21 +1,17 @@
 # ---------------------------------------------------------------------------
 # stage 1 - builder
 # ---------------------------------------------------------------------------
-FROM node:24 as builder
-
-# install bun
-RUN npm install -g bun
+FROM oven/bun:1 AS builder
 
 # setup default user and working directory
-USER node
-WORKDIR /home/node/app
+WORKDIR /app
 
 # install dependencies
 COPY --chown=node:node package.json bun.lock ./
 RUN bun install --frozen-lockfile
 
 # copy source code
-COPY --chown=node:node . .
+COPY . .
 
 # build docs
 RUN bun docs:build
