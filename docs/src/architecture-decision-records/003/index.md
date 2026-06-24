@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# ADR-003
+# ADR#003
 
 ## Topic
 How should we handle date formats during the import process to prevent ambiguous date interpretation?

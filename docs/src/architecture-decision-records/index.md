@@ -24,10 +24,13 @@ Each major feature or architectural change is recorded using the following struc
 
 Template to create new Architecture Decision Records
 
-- [ADR-XXX](/architecture-decision-records/template.md)
+- [ADR#XXX](/architecture-decision-records/template.md)
 
 ## Records
 
-- [ADR-001](/architecture-decision-records/001/index.md) - How the import process works?
-- [ADR-002](/architecture-decision-records/002/index.md) - Does the application need to restrict certain users from accessing specific features?
-- [ADR-003](/architecture-decision-records/003/index.md) - How should we handle date formats during the import process to prevent ambiguous date interpretation?
+| ADR                                                    | Topic                                                                                                 |
+|--------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| [ADR#001](/architecture-decision-records/001/index.md) | How the import process works?                                                                         |
+| [ADR#002](/architecture-decision-records/002/index.md) | Does the application need to restrict certain users from accessing specific features?                 |
+| [ADR#003](/architecture-decision-records/003/index.md) | How should we handle date formats during the import process to prevent ambiguous date interpretation? |
+| [ADR#004](/architecture-decision-records/004/index.md) | How can we ensure imported journal data remains compatible with the reporting formulas?               |z

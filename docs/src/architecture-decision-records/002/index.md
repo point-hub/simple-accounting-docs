@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# ADR-002
+# ADR#002
 
 ## Topic
 Does the application need to restrict certain users from accessing specific features?

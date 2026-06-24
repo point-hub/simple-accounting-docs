@@ -11,7 +11,7 @@ In version [v1.0.0 - Initial Release](/development-roadmap/v1.0.0/) the Journal 
 For example, 01/02/2026 was intended to represent `1 February 2026`, as the expected format was dd/MM/yyyy. However, the system interpreted the value using the MM/dd/yyyy format, resulting in `2 January 2026` instead.
 
 **References:**
-- [ADR-003](/architecture-decision-records/003/index.md) How should we handle date formats during the import process to prevent ambiguous date interpretation?
+- [ADR#003](/architecture-decision-records/003/index.md) How should we handle date formats during the import process to prevent ambiguous date interpretation?
 
 ## Solution
 

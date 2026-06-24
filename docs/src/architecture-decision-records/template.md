@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# ADR-XXX Title
+# ADR#XXX Title
 
 ## Topic
 
