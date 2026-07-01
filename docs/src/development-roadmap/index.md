@@ -12,3 +12,4 @@ This roadmap helps ensure transparency, provides context for design decisions, a
 
 - [v1.0.0 - Initial Release](/development-roadmap/v1.0.0/)
 - [v1.0.1 - Date Format Validation](/development-roadmap/v1.0.1/)
+- [v1.0.2 - Import Data Validation](/development-roadmap/v1.0.2/)

@@ -37,3 +37,4 @@ The Import Journal feature allows users to upload transaction data in bulk in `.
   - [4.1.F3. Journal import fails when COA number or COA name does not match any record.](/journals/import/scenarios/f3/)
   - [4.1.F4. Journal import fails when debit and credit amounts are not balanced.](/journals/import/scenarios/f4/)
   - [4.1.F5. Journal import fails when the date format is invalid.](/journals/import/scenarios/f5/)
+  - [4.1.F6. Journal import fails when rows with the same form number contain different dates.](/journals/import/scenarios/f6/)
