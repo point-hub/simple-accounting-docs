@@ -17,7 +17,7 @@ aside: false
 ![alt text](./journal-list.png){.shadow-img}
 
 - `WHEN` user click "Download Template" button (step 1)
-- `AND` user update their data to that csv (step 2)
+- `AND` user update their data to that csv (step 2) [ADR#004](/architecture-decision-records/004/)
 - `AND` user upload the completed file (step 3)
 
 ![alt text](./journal-import.png){.shadow-img}
