@@ -13,8 +13,15 @@
 ![alt text](./coa-list.png){.shadow-img}
 
 - `WHEN` user click "Download Template" button (step 1)
-- `AND` user update their data to that csv (step 2) [ADR#004](/architecture-decision-records/004/)
-- `AND` user upload the completed file (step 3)
+- `AND` the user updates the CSV file (step 2), where row 4 intentionally contains an invalid COA type `Assetx` 
+
+Ref: [ADR#004](/architecture-decision-records/004/)
+
+<ClientOnly>
+  <iframe style="width:100%;height:300px"  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS2oR69UQxpZ6Sq20C6uo2NrlGE6WtMVLqWTegBdKl-uH9l6kjE0t7v6_MCE1EL5es5NcdGbxyeDcq6/pubhtml?gid=156961744&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+</ClientOnly>
+
+- `WHEN` user upload the completed file (step 3)
 
 ![alt text](./coa-import.png){.shadow-img}
 
