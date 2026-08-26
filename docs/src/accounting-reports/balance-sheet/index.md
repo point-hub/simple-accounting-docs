@@ -9,7 +9,7 @@ It summarizes what the business:
 - Invested by the owner (Equity)
 
 :::info
-In Simple Accounting, the General Ledger is generated automatically from [imported journals](/journals/import/).
+In Simple Accounting, the Balance Sheet is generated automatically from [imported journals](/journals/import/).
 
 - Asset accounts are grouped under coa_type = assets
 - Liability accounts are grouped under coa_type = liability
