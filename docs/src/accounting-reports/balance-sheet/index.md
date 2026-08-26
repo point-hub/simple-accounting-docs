@@ -22,6 +22,10 @@ The Balance Sheet is based on the fundamental accounting equation
 **Assets** = **Liabilities** + **Equity**
 :::
 
+## Retained Earning
+
+Retained earnings represent the accumulated profit of the business that remains in the business after deducting expenses. For the Balance Sheet, retained earnings are included as part of Equity.
+
 ## Example
 
 <ClientOnly>
