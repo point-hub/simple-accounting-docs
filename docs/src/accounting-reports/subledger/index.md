@@ -22,3 +22,7 @@ In Simple Accounting, the General Ledger is generated automatically from [import
   - [5.2.S1. User can view filtered subledger report.](/accounting-reports/subledger/scenarios/s1/)
 - **Failure Scenarios**
   - [5.2.F1. Subledger report fails when user is not authenticated.](/accounting-reports/subledger/scenarios/f1/)
+
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/5.2](https://simple-accounting-test-report.vercel.app/5.2)

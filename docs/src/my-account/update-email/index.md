@@ -11,3 +11,6 @@ The Update Email page allows users to change their registered email address. Sin
   - [2.2.F2. Email update fails when required fields are empty.](/my-account/update-email/scenarios/f2/)
   - [2.2.F3. Email update fails when email already exists.](/my-account/update-email/scenarios/f3/)
   
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/2.2](https://simple-accounting-test-report.vercel.app/2.2)

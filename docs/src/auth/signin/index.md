@@ -8,3 +8,7 @@ The Signin feature allows registered and verified users to securely access the a
   - [1.3.S1. User can sign in successfully.](/auth/signin/scenarios/s1/)
 - **Failure Scenarios**
   - [1.3.F1. Sign in fails when credentials do not match.](/auth/signin/scenarios/f1/)
+
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/1.3](https://simple-accounting-test-report.vercel.app/1.3)

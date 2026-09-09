@@ -17,3 +17,6 @@ The signup endpoint is currently hidden because it is intended for internal use 
   - [1.1.F4. Sign up fails when password is not strong enough.](/auth/signup/scenarios/f4/)
   - [1.1.F5. Sign up fails when password confirmation does not match.](/auth/signup/scenarios/f5/)
   
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/1.1](https://simple-accounting-test-report.vercel.app/1.1)

@@ -56,3 +56,7 @@ Below are the available `coa_type` and `coa_category` options used to classify a
   - [3.1.F6. COA import fails when COA category is invalid.](/chart-of-accounts/import/scenarios/f6/)
   - [3.1.F7. COA import fails when COA category does not belong to the selected COA type.](/chart-of-accounts/import/scenarios/f7/)
   - [3.1.F8. COA import fails when the headers are invalid.](/chart-of-accounts/import/scenarios/f8/)
+
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/3.1](https://simple-accounting-test-report.vercel.app/3.1)

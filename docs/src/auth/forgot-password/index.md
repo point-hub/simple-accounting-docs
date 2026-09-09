@@ -9,3 +9,7 @@ The Forgot Password feature allows users to request a password reset if they can
 - **Failure Scenarios**
   - [1.5.F1. Password reset request fails when required fields are empty.](/auth/forgot-password/scenarios/f1/)
   - [1.5.F2. Password reset request fails when email is not found.](/auth/forgot-password/scenarios/f2/)
+
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/1.5](https://simple-accounting-test-report.vercel.app/1.5)

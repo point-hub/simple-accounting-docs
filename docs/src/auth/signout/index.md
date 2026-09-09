@@ -6,3 +6,7 @@ The Signout feature allows users to securely log out of the application. It ends
 
 - **Success Scenarios**
   - [1.4.S1. User can sign out successfully.](/auth/signout/scenarios/s1/)
+
+## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/1.4](https://simple-accounting-test-report.vercel.app/1.4)

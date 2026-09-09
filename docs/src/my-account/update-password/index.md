@@ -13,3 +13,7 @@ Unlike Reset Password, this feature is used when the user still remembers their 
   - [2.3.F2. Password update fails when required fields are empty.](/my-account/update-password/scenarios/f2/)
   - [2.3.F3. Password update fails when password is not strong enough.](/my-account/update-password/scenarios/f3/)
   - [2.3.F4. Password update fails when password confirmation does not match.](/my-account/update-password/scenarios/f4/)
+
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/2.3](https://simple-accounting-test-report.vercel.app/2.3)

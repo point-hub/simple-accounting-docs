@@ -13,3 +13,6 @@ The username may be displayed in the dashboard, reports, activity logs, or audit
   - [2.1.F2. Username update fails when required fields are empty.](/my-account/update-username/scenarios/f2/)
   - [2.1.F3. Username update fails when username already exists.](/my-account/update-username/scenarios/f3/)
   
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/2.1](https://simple-accounting-test-report.vercel.app/2.1)

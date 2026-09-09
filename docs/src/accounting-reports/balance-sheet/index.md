@@ -40,3 +40,7 @@ Retained earnings represent the accumulated profit of the business that remains 
   - [5.5.S1. User can view filtered balance sheet report.](/accounting-reports/balance-sheet/scenarios/s1/)
 - **Failure Scenarios**
   - [5.5.F1. Balance sheet report fails when user is not authenticated.](/accounting-reports/balance-sheet/scenarios/f1/)
+
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/5.5](https://simple-accounting-test-report.vercel.app/5.5)

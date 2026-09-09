@@ -39,3 +39,7 @@ The Import Journal feature allows users to upload transaction data in bulk in `.
   - [4.1.F5. Journal import fails when the date format is invalid.](/journals/import/scenarios/f5/)
   - [4.1.F6. Journal import fails when rows with the same form number contain different dates.](/journals/import/scenarios/f6/)
   - [4.1.F7. Journal import fails when the headers are invalid.](/journals/import/scenarios/f7/)
+
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/4.1](https://simple-accounting-test-report.vercel.app/4.1)

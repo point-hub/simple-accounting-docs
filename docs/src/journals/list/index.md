@@ -10,3 +10,7 @@ The journal list supports pagination to ensure optimal performance and usability
   - [4.2.S1. User can view paginated journals data.](/journals/list/scenarios/s1/)
 - **Failure Scenarios**
   - [4.2.F1. Journal list retrieval fails when user is not authenticated.](/journals/list/scenarios/f1/)
+
+## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/4.2](https://simple-accounting-test-report.vercel.app/4.2)

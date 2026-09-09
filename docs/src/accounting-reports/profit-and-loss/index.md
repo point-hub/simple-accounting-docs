@@ -48,3 +48,7 @@ It summarizes income, costs, and expenses to measure business performance.
   - [5.4.S1. User can view filtered profit and loss report.](/accounting-reports/profit-and-loss/scenarios/s1/)
 - **Failure Scenarios**
   - [5.4.F1. Profit and loss report fails when user is not authenticated.](/accounting-reports/profit-and-loss/scenarios/f1/)
+
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/5.4](https://simple-accounting-test-report.vercel.app/5.4)

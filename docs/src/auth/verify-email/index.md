@@ -11,3 +11,9 @@ After a user completes the signup process, the system sends a verification link 
 - **Failure Scenarios**
   - [1.2.F1. Email verification fails when required fields are empty.](/auth/verify-email/scenarios/f1/)
   - [1.2.F2. Email verification fails when verification code is invalid.](/auth/verify-email/scenarios/f2/)
+
+  ## Test Report
+
+  [https://simple-accounting-test-report.vercel.app/1.2](https://simple-accounting-test-report.vercel.app/1.2)
+
+  
