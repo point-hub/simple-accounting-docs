@@ -13,4 +13,4 @@ The Update Email page allows users to change their registered email address. Sin
   
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/2.2](https://simple-accounting-test-report.vercel.app/2.2)
+  [https://simple-accounting-test-report.netlify.app/2.2](https://simple-accounting-test-report.netlify.app/2.2)

@@ -16,4 +16,4 @@ Unlike Reset Password, this feature is used when the user still remembers their 
 
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/2.3](https://simple-accounting-test-report.vercel.app/2.3)
+  [https://simple-accounting-test-report.netlify.app/2.3](https://simple-accounting-test-report.netlify.app/2.3)

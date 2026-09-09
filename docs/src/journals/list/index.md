@@ -13,4 +13,4 @@ The journal list supports pagination to ensure optimal performance and usability
 
 ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/4.2](https://simple-accounting-test-report.vercel.app/4.2)
+  [https://simple-accounting-test-report.netlify.app/4.2](https://simple-accounting-test-report.netlify.app/4.2)

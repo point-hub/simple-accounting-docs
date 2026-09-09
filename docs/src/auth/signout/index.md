@@ -9,4 +9,4 @@ The Signout feature allows users to securely log out of the application. It ends
 
 ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/1.4](https://simple-accounting-test-report.vercel.app/1.4)
+  [https://simple-accounting-test-report.netlify.app/1.4](https://simple-accounting-test-report.netlify.app/1.4)

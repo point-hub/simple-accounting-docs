@@ -42,4 +42,4 @@ The Import Journal feature allows users to upload transaction data in bulk in `.
 
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/4.1](https://simple-accounting-test-report.vercel.app/4.1)
+  [https://simple-accounting-test-report.netlify.app/4.1](https://simple-accounting-test-report.netlify.app/4.1)

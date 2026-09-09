@@ -25,4 +25,4 @@ In Simple Accounting, the General Ledger is generated automatically from [import
 
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/5.2](https://simple-accounting-test-report.vercel.app/5.2)
+  [https://simple-accounting-test-report.netlify.app/5.2](https://simple-accounting-test-report.netlify.app/5.2)

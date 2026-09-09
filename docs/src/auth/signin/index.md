@@ -11,4 +11,4 @@ The Signin feature allows registered and verified users to securely access the a
 
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/1.3](https://simple-accounting-test-report.vercel.app/1.3)
+  [https://simple-accounting-test-report.netlify.app/1.3](https://simple-accounting-test-report.netlify.app/1.3)

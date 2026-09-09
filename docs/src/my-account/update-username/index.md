@@ -15,4 +15,4 @@ The username may be displayed in the dashboard, reports, activity logs, or audit
   
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/2.1](https://simple-accounting-test-report.vercel.app/2.1)
+  [https://simple-accounting-test-report.netlify.app/2.1](https://simple-accounting-test-report.netlify.app/2.1)

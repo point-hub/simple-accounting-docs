@@ -14,6 +14,6 @@ After a user completes the signup process, the system sends a verification link 
 
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/1.2](https://simple-accounting-test-report.vercel.app/1.2)
+  [https://simple-accounting-test-report.netlify.app/1.2](https://simple-accounting-test-report.netlify.app/1.2)
 
   

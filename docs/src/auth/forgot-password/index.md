@@ -12,4 +12,4 @@ The Forgot Password feature allows users to request a password reset if they can
 
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/1.5](https://simple-accounting-test-report.vercel.app/1.5)
+  [https://simple-accounting-test-report.netlify.app/1.5](https://simple-accounting-test-report.netlify.app/1.5)

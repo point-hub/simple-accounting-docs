@@ -19,4 +19,4 @@ The signup endpoint is currently hidden because it is intended for internal use 
   
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/1.1](https://simple-accounting-test-report.vercel.app/1.1)
+  [https://simple-accounting-test-report.netlify.app/1.1](https://simple-accounting-test-report.netlify.app/1.1)

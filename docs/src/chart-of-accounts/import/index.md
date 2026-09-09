@@ -59,4 +59,4 @@ Below are the available `coa_type` and `coa_category` options used to classify a
 
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/3.1](https://simple-accounting-test-report.vercel.app/3.1)
+  [https://simple-accounting-test-report.netlify.app/3.1](https://simple-accounting-test-report.netlify.app/3.1)

@@ -11,4 +11,4 @@ The List Chart of Accounts page displays all available Chart of Accounts (COA) i
 
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/3.2](https://simple-accounting-test-report.vercel.app/3.2)
+  [https://simple-accounting-test-report.netlify.app/3.2](https://simple-accounting-test-report.netlify.app/3.2)

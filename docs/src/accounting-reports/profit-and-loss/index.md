@@ -51,4 +51,4 @@ It summarizes income, costs, and expenses to measure business performance.
 
   ## Test Report
 
-  [https://simple-accounting-test-report.vercel.app/5.4](https://simple-accounting-test-report.vercel.app/5.4)
+  [https://simple-accounting-test-report.netlify.app/5.4](https://simple-accounting-test-report.netlify.app/5.4)
