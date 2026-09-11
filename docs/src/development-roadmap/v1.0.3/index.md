@@ -43,7 +43,7 @@ This ensures that invalid files are rejected before any data is imported.
 
 ## Scenarios
 
-### 3.1. Import Journal
+### 3.1. Import Chart of Account
 
 | 3.1.F Failed Scenarios                                                                                                                                   |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
