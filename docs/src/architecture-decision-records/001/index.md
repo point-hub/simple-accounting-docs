@@ -100,7 +100,7 @@ Discussed the advantages and disadvantages of each option and finalized the deci
 | Kartika | Project Owner |
 | Martien | Software Architect |
 
-### 2 September 2026
+### 02 September 2026
 
 There is an issue with the current import process. When an import fails, users have to go back to the Excel file, fix the data, and upload the file again. After several attempts, this becomes inconvenient and is not user-friendly.
 
