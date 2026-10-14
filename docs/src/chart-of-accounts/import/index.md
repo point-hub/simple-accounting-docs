@@ -47,6 +47,7 @@ Below are the available `coa_type` and `coa_category` options used to classify a
 
 - **Success Scenarios**
   - [3.1.S1. User can import chart of accounts (COA) successfully.](/chart-of-accounts/import/scenarios/s1/)
+  - [3.1.S2. User can fix failed import chart of accounts (COA) successfully.](/chart-of-accounts/import/scenarios/s2/)
 - **Failure Scenarios**
   - [3.1.F1. COA import fails when user is not authenticated.](/chart-of-accounts/import/scenarios/f1/)
   - [3.1.F2. COA import fails when required fields are empty.](/chart-of-accounts/import/scenarios/f2/)

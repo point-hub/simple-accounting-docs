@@ -11,9 +11,9 @@ How the import process works?
 Users store their business transaction data in Excel or other applications, but they need a simple and reliable way to import the data into the system for analysis and accounting purposes.
 
 ## Decision
-The system will support importing transaction data from CSV files.
-
-If the import process fails due to invalid or incomplete data, the system will save the uploaded data as a draft and display the import errors inside the application. Users can review and update the data directly in the app, then submit the corrected data again without having to modify and re-upload the original CSV file.
+- The system will support importing transaction data from CSV files.
+- If the import process fails due to invalid or incomplete data, the system will save the uploaded data as a draft and display the import errors inside the application. 
+- Users can review and update the data directly in the app, then submit the corrected data again without having to modify and re-upload the original CSV file.
 
 ## Reasoning
 - CSV is widely supported by Excel, accounting software, ERP systems, and other business applications.

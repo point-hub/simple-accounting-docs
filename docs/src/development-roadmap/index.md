@@ -10,7 +10,10 @@ The Development Roadmap provides an overview of features, enhancements, and sche
 
 This roadmap helps ensure transparency, provides context for design decisions, and allows the team to track progress toward delivering new capabilities in a structured and organized manner.
 
-- [v1.0.0 - Initial Release](/development-roadmap/v1.0.0/)
-- [v1.0.1 - Date Format Validation](/development-roadmap/v1.0.1/)
-- [v1.0.2 - Import Data Validation](/development-roadmap/v1.0.2/)
-- [v1.0.3 - Import Header Validation](/development-roadmap/v1.0.3/)
+| Roadmap | Status |
+| --- | --- |
+| [v1.0.0 - Initial Release](/development-roadmap/v1.0.0/) | Delivered |
+| [v1.0.1 - Date Format Validation](/development-roadmap/v1.0.1/) | Delivered |
+| [v1.0.2 - Import Data Validation](/development-roadmap/v1.0.2/) | Delivered |
+| [v1.0.3 - Import Header Validation](/development-roadmap/v1.0.3/) | Approval PRD |
+| [v1.1.0 - UX Improvement for Handle Import Validation](/development-roadmap/v1.1.0/) | Progress PRD |
