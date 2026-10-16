@@ -6,26 +6,26 @@
 - `AND` user visit home
 - `WHEN` user click menu "Chart of Accounts"
 
-![alt text](./home.png){.shadow-img}
+![alt text](../s1/menu-coa.jpg){.shadow-img}
 
-- `WHEN` user click button "import"
+- `THEN` user redirected to list chart of account page
+- `WHEN` user click import button
 
-![alt text](./coa-list.png){.shadow-img}
+![alt text](../s1/coa-import-button.jpg){.shadow-img}
 
-- `WHEN` user click "Download Template" button (step 1)
-- `AND` the user updates the CSV file (step 2), where row 4 intentionally contains an invalid COA type `Assetx` 
+- `THEN` user redirected to import chart of account page
+- `WHEN` user upload csv file in the upload form
 
-Ref: [ADR#004](/architecture-decision-records/004/)
+![alt text](../s1/upload-form.jpg){.shadow-img}
 
-<ClientOnly>
-  <iframe style="width:100%;height:300px"  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS2oR69UQxpZ6Sq20C6uo2NrlGE6WtMVLqWTegBdKl-uH9l6kjE0t7v6_MCE1EL5es5NcdGbxyeDcq6/pubhtml?gid=156961744&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-</ClientOnly>
+- `WHEN` user click save button
 
-- `WHEN` user upload the completed file (step 3)
+![alt text](../s1/upload-save.jpg){.shadow-img}
 
-![alt text](./coa-import.png){.shadow-img}
+- `THEN` user sees notification "Import completed with some invalid fields. Please review and fix the errors"
 
-- `WHEN` user click "Save" button
-- `THEN` user see notification "Import failed: invalid type "Assetx" at row 4"
+![alt text](../s1/f5-notification.jpg){.shadow-img}
 
-![alt text](./coa-import-failed.png){.shadow-img}
+- `THEN` user sees error message "Row 4. The category field contains an invalid value. Please select a category from the available options."
+
+![alt text](../s1/f5-error-message.jpg){.shadow-img}

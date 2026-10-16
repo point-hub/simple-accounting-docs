@@ -46,7 +46,6 @@ importing process also takes time and not user friendly
 
 | 3.1.F Failed Scenarios |
 | --- |
-| [3.1.F1. COA import fails when user is not authenticated.](/chart-of-accounts/import/scenarios/f1/) |
 | [3.1.F2. COA import fails when required fields are empty.](/chart-of-accounts/import/scenarios/f2/) |
 | [3.1.F3. COA import fails when COA number already exists.](/chart-of-accounts/import/scenarios/f3/) |
 | [3.1.F4. COA import fails when COA name already exists.](/chart-of-accounts/import/scenarios/f4/) |
@@ -64,7 +63,6 @@ importing process also takes time and not user friendly
 
 | 4.1.F Failed Scenarios |
 | ---- |
-| [4.1.F1. Journal import fails when user is not authenticated.](/journals/import/scenarios/f1/) |
 | [4.1.F2. Journal import fails when required fields are empty.](/journals/import/scenarios/f2/) |
 | [4.1.F3. Journal import fails when COA number or COA name does not match any record.](/journals/import/scenarios/f3/) |
 | [4.1.F4. Journal import fails when debit and credit amounts are not balanced.](/journals/import/scenarios/f4/) |

@@ -6,21 +6,35 @@
 - `AND` user visit home
 - `WHEN` user click menu "Chart of Accounts"
 
-![alt text](./home.png){.shadow-img}
+![alt text](./menu-coa.jpg){.shadow-img}
 
-- `WHEN` user click button "import"
+- `THEN` user redirected to list chart of account page
+- `WHEN` user click import button
 
-![alt text](./coa-list.png){.shadow-img}
+![alt text](./coa-import-button.jpg){.shadow-img}
 
-- `WHEN` user click "Download Template" button (step 1)
-- `AND` user update their data to that csv (step 2)
-- `AND` user upload the completed file (step 3)
+- `THEN` user redirected to import chart of account page
+- `WHEN` user click instruction button
 
-![alt text](./coa-import.png){.shadow-img}
+![alt text](./upload-instruction.jpg){.shadow-img}
 
-- `WHEN` user click "Save" button
-- `THEN` user redirected to "Chart of Accounts - List" page
-- `AND` user see notification "Import success"
-- `AND` user see the data imported
+- `THEN` user sees popup import instructions
 
-![alt text](./coa-import-success.png){.shadow-img}
+![alt text](./coa-import-instruction.jpg){.shadow-img}
+
+- `WHEN` user click close button
+
+![alt text](./coa-import-instruction-close.jpg){.shadow-img}
+
+- `THEN` user sees popup import instructions disappear
+- `WHEN` user upload csv file in the upload form
+
+![alt text](./upload-form.jpg){.shadow-img}
+
+- `WHEN` user click save button
+
+![alt text](./upload-save.jpg){.shadow-img}
+
+- `THEN` user see notification "Import success"
+
+![alt text](./s1-notification.jpg){.shadow-img}
