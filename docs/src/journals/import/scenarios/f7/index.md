@@ -12,19 +12,22 @@ Reference: [ADR#005](/architecture-decision-records/005/)
 - `AND` user visit home
 - `WHEN` user click menu "Journals"
 
-![alt text](./home.png){.shadow-img}
+![alt text](../s1/menu-journals.jpg){.shadow-img}
 
-- `WHEN` user click button "import"
+- `THEN` user redirected to list journals page
+- `WHEN` user click import button
 
-![alt text](./journal-list.png){.shadow-img}
+![alt text](../s1/import-button.jpg){.shadow-img}
 
-- `WHEN` user click "Download Template" button (step 1)
-- `AND` user update their data to that csv (step 2)
-- `AND` user upload the completed file (step 3)
+- `THEN` user redirected to import journals page
+- `WHEN` user upload csv file in the upload form
 
-![alt text](./journal-import.png){.shadow-img}
+![alt text](../s1/form-upload.jpg){.shadow-img}
 
-- `WHEN` user click "Save" button
+- `WHEN` user click save button
+
+![alt text](../s1/save-button.jpg){.shadow-img}
+
 - `THEN` user see notification "Import failed: The column header "date" at Column A, Row 1 is invalid. Please rename it to "date" according to the import template and try again."
 
-![alt text](./error.jpg){.shadow-img}
+![alt text](../s1/error-header.jpg){.shadow-img}

@@ -10,34 +10,27 @@ aside: false
 - `AND` user visit home
 - `WHEN` user click menu "Journals"
 
-![alt text](./home.png){.shadow-img}
+![alt text](../s1/menu-journals.jpg){.shadow-img}
 
-- `WHEN` user click button "import"
+- `THEN` user redirected to list journals page
+- `WHEN` user click import button
 
-![alt text](./journal-list.png){.shadow-img}
+![alt text](../s1/import-button.jpg){.shadow-img}
 
-- `WHEN` user click "Download Template" button (step 1)
-- `AND` user update their data to that csv (step 2)
+- `THEN` user redirected to import journals page
+- `WHEN` user upload csv file in the upload form
 
-<div style="overflow-x: auto;">
+![alt text](../s1/form-upload.jpg){.shadow-img}
 
-| date | form_number | coa_number | coa_name | subledger | description | Debit | Credit |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-01-06 09:30:00 | INVOICE/202601/0001 | 91919 | Cost of Sales |  | Sales Invoice | 2,500,000.00 | 0.00 |
+- `WHEN` user click save button
 
-</div>
+![alt text](../s1/save-button.jpg){.shadow-img}
 
-::: info
-At row 10, the user entered coa_number = 91919, which does not exist in the master COA.
-:::
+- `THEN` user see notification "Import completed with some invalid fields. Please review and fix the errors"
 
+![alt text](../s1/f3-notification.jpg){.shadow-img}
 
-- `AND` user upload the completed file (step 3)
+- `THEN` user sees error message "Row 9. coa number "40101" and coa name "Wrong Name" combination not found."
+- `AND` user sees error message "Row 10. coa number "Wrong Number" and coa name "Cost of Sales" combination not found."
 
-![alt text](./journal-import.png){.shadow-img}
-
-- `WHEN` user click "Save" button
-- `THEN` user see notification "Import failed."
-- `AND` user see notification "Import failed: coa_number "91919" and coa_name "Cost of Sales" combination not found at row 10"
-
-![alt text](./journal-import-failed.png){.shadow-img}
+![alt text](../s1/f3-error-message.jpg){.shadow-img}

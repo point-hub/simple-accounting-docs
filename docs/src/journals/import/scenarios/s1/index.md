@@ -10,21 +10,35 @@ aside: false
 - `AND` user visit home
 - `WHEN` user click menu "Journals"
 
-![alt text](./home.png){.shadow-img}
+![alt text](./menu-journals.jpg){.shadow-img}
 
-- `WHEN` user click button "import"
+- `THEN` user redirected to list journals page
+- `WHEN` user click import button
 
-![alt text](./journal-list.png){.shadow-img}
+![alt text](./import-button.jpg){.shadow-img}
 
-- `WHEN` user click "Download Template" button (step 1)
-- `AND` user update their data to that csv (step 2)
-- `AND` user upload the completed file (step 3)
+- `THEN` user redirected to import journals page
+- `WHEN` user click instruction button
 
-![alt text](./journal-import.png){.shadow-img}
+![alt text](./instruction-button.jpg){.shadow-img}
 
-- `WHEN` user click "Save" button
-- `THEN` user redirected to "Journals - List" page
-- `AND` user see notification "Import success"
-- `AND` user see the data imported
+- `THEN` user sees popup import instructions
 
-![alt text](./journal-import-success.png){.shadow-img}
+![alt text](./popup-instruction.jpg){.shadow-img}
+
+- `WHEN` user click close button
+
+![alt text](./close-instruction.jpg){.shadow-img}
+
+- `THEN` user sees popup import instructions disappear
+- `WHEN` user upload csv file in the upload form
+
+![alt text](./form-upload.jpg){.shadow-img}
+
+- `WHEN` user click save button
+
+![alt text](./save-button.jpg){.shadow-img}
+
+- `THEN` user see notification "Import success"
+
+![alt text](./success-notification.jpg){.shadow-img}

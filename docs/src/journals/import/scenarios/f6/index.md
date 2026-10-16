@@ -10,19 +10,32 @@ aside: false
 - `AND` user visit home
 - `WHEN` user click menu "Journals"
 
-![alt text](./home.png){.shadow-img}
+![alt text](../s1/menu-journals.jpg){.shadow-img}
 
-- `WHEN` user click button "import"
+- `THEN` user redirected to list journals page
+- `WHEN` user click import button
 
-![alt text](./journal-list.png){.shadow-img}
+![alt text](../s1/import-button.jpg){.shadow-img}
 
-- `WHEN` user click "Download Template" button (step 1)
-- `AND` user update their data to that csv (step 2) [ADR#004](/architecture-decision-records/004/)
-- `AND` user upload the completed file (step 3)
+- `THEN` user redirected to import journals page
+- `WHEN` user upload csv file in the upload form
 
-![alt text](./journal-import.png){.shadow-img}
+![alt text](../s1/form-upload.jpg){.shadow-img}
 
-- `WHEN` user click "Save" button
-- `THEN` user see notification "Import failed: all rows with form_number "CASH/202601/0002" must have the same date at row 13"
+- `WHEN` user click save button
 
-![alt text](./journal-import-failed.png){.shadow-img}
+![alt text](../s1/save-button.jpg){.shadow-img}
+
+- `THEN` user see notification "Import completed with some invalid fields. Please review and fix the errors"
+
+![alt text](../s1/f6-notification.jpg){.shadow-img}
+
+- `THEN` user sees error message "Row 2. The date field is required."
+- `AND` user sees error message "Row 3. The form number field is required."
+- `AND` user sees error message "Row 4. The coa number field is required."
+- `AND` user sees error message "Row 5. The coa name field is required."
+- `AND` user sees error message "Row 6. The description field is required."
+- `AND` user sees error message "Row 7. The debit field is required."
+- `AND` user sees error message "Row 8. The credit field is required."
+
+![alt text](../s1/f6-error-message.jpg){.shadow-img}

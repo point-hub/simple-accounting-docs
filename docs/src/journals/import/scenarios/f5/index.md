@@ -6,23 +6,31 @@ aside: false
 
 ## 4.1.F5. Journal import fails when the date format is invalid.
 
+
 - `GIVEN` user already logged in
 - `AND` user visit home
 - `WHEN` user click menu "Journals"
 
-![alt text](./home.png){.shadow-img}
+![alt text](../s1/menu-journals.jpg){.shadow-img}
 
-- `WHEN` user click button "import"
+- `THEN` user redirected to list journals page
+- `WHEN` user click import button
 
-![alt text](./journal-list.png){.shadow-img}
+![alt text](../s1/import-button.jpg){.shadow-img}
 
-- `WHEN` user click "Download Template" button (step 1)
-- `AND` user update their data to that csv (step 2)
-- `AND` user upload the completed file (step 3)
+- `THEN` user redirected to import journals page
+- `WHEN` user upload csv file in the upload form
 
-![alt text](./journal-import.png){.shadow-img}
+![alt text](../s1/form-upload.jpg){.shadow-img}
 
-- `WHEN` user click "Save" button
-- `THEN` user see notification "Import failed: invalid date format at row 2. Expected yyyy-MM-dd HH:mm:ss (ex: 2025-12-31 23:59:00)."
+- `WHEN` user click save button
 
-![alt text](./journal-import-failed.png){.shadow-img}
+![alt text](../s1/save-button.jpg){.shadow-img}
+
+- `THEN` user see notification "Import completed with some invalid fields. Please review and fix the errors"
+
+![alt text](../s1/f5-notification.jpg){.shadow-img}
+
+- `THEN` user sees error message "Row 11. invalid date format at row 2. Expected yyyy-MM-dd (ex: 2025-12-31)"
+
+![alt text](../s1/f5-error-message.jpg){.shadow-img}
