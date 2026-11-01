@@ -1,119 +1,114 @@
-import { type DefaultTheme } from 'vitepress'
-import { withMermaid } from 'vitepress-plugin-mermaid'
 
-// https://vitepress.dev/reference/site-config
+import { withMermaid } from 'vitepress-plugin-mermaid'
+import fs from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+import { getSidebar } from './sidebars'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+const srcAbsoluteDir = path.resolve(__dirname, './src')
+const sidebarAbsoluteDir = path.resolve(__dirname, './sidebars')
+
+// Detect available documentation versions.
+const versions: string[] = fs.existsSync(srcAbsoluteDir)
+  ? fs.readdirSync(srcAbsoluteDir).filter((file) => {
+      const fullPath = path.join(srcAbsoluteDir, file)
+
+      return (
+        fs.statSync(fullPath).isDirectory() &&
+        /^v\d+\.\d+$/.test(file)
+      )
+    })
+  : []
+
+// Sort versions using semantic version numbers.
+versions.sort((a, b) => {
+  const versionA = a.slice(1).split('.').map(Number)
+  const versionB = b.slice(1).split('.').map(Number)
+
+  for (let i = 0; i < 3; i++) {
+    if (versionA[i] !== versionB[i]) {
+      return versionB[i] - versionA[i]
+    }
+  }
+
+  return 0
+})
+
+// Determine the latest available version.
+const latestVersion = versions[0] ?? 'v1.0'
+
+// Load individual sidebar configurations.
+const dynamicSidebar = getSidebar(
+  versions,
+  sidebarAbsoluteDir,
+)
+
+// Default sidebar for the root documentation.
+dynamicSidebar['/'] = [
+  {
+    text: 'Documentation',
+    items: [
+      {
+        text: 'Introduction',
+        link: `/${latestVersion}/`,
+      },
+    ],
+  },
+]
+
 export default withMermaid({
   lang: 'en-US',
-  title: 'Simple Accounting',
-  description: 'Documentation of Simple Accounting',
+  title: 'Developer Portal',
+  description: 'Template for Web documentation',
   cleanUrls: true,
   srcDir: './src',
+
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png' }],
-    ['link', { rel: 'stylesheet', href: 'https://assets.pointhub.net/assets/fontawesome-6/css/all.min.css' }],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon-32x32.png',
+      },
+    ],
+    ['link', { rel: 'stylesheet', href: 'https://pointhub.net' }],
   ],
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: '/icon.png',
-    nav: nav(),
-    sidebar: {
-      '/': sidebarDocs(),
-    },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/point-hub/docs-starter' }],
+
+    nav: [
+      {
+        text: 'Home',
+        link: `/${latestVersion}/`,
+      },
+      {
+        component: 'VersionSwitcher',
+        props: {
+          versions,
+          latestVersion,
+        },
+      },
+    ],
+
+    sidebar: dynamicSidebar,
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com' },
+    ],
+
     search: {
       provider: 'local',
     },
+
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2026 Pointhub',
-    },
-  }
+    }
+  },
 })
-
-function nav(): DefaultTheme.NavItem[] {
-  return [
-    { text: 'Home', link: '/' },
-  ]
-}
-
-function sidebarDocs(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: 'Documentation',
-      items: [
-        { text: 'Introduction', link: '/' },
-        { text: 'Sitemap', link: '/sitemap' },
-      ],
-    },
-    {
-      text: 'Features',
-      items: [
-        { 
-          text: 'Auth', 
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/auth/about/' },
-            { text: 'Schema', link: '/auth/schema/' },
-            { text: 'Signup', link: '/auth/signup/' },
-            { text: 'Verify Email', link: '/auth/verify-email/' },
-            { text: 'Signin', link: '/auth/signin/' },
-            { text: 'Signout', link: '/auth/signout/' },
-            { text: 'Forgot Password', link: '/auth/forgot-password/' },
-            { text: 'Reset Password', link: '/auth/reset-password/' },
-          ],
-        },
-        { 
-          text: 'My Account', 
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/my-account/about/' },
-            { text: 'Schema', link: '/my-account/schema/' },
-            { text: 'Update Username', link: '/my-account/update-username/' },
-            { text: 'Update Email', link: '/my-account/update-email/' },
-            { text: 'Update Password', link: '/my-account/update-password/' },
-          ],
-        },
-        { 
-          text: 'Chart of Accounts', 
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/chart-of-accounts/about/' },
-            { text: 'Schema', link: '/chart-of-accounts/schema/' },
-            { text: 'Import', link: '/chart-of-accounts/import/' },
-            { text: 'List', link: '/chart-of-accounts/list/' },
-          ],
-        },
-        { 
-          text: 'Journals', 
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/journals/about/' },
-            { text: 'Schema', link: '/journals/schema/' },
-            { text: 'Import', link: '/journals/import/' },
-            { text: 'List', link: '/journals/list/' },
-          ],
-        },
-        { 
-          text: 'Accounting Reports', 
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/accounting-reports/about/' },
-            { text: 'General Ledger', link: '/accounting-reports/general-ledger/' },
-            { text: 'Subledger', link: '/accounting-reports/subledger/' },
-            { text: 'Trial Balance', link: '/accounting-reports/trial-balance/' },
-            { text: 'Profit & Loss', link: '/accounting-reports/profit-and-loss/' },
-            { text: 'Balance Sheet', link: '/accounting-reports/balance-sheet/' },
-          ],
-        },
-      ],
-    },
-    {
-      text: 'Resources',
-      items: [
-        { text: 'Architecture Decision Records', link: '/architecture-decision-records/' },
-        { text: 'Development Roadmap', link: '/development-roadmap/' },
-        { text: 'Developer Resources', link: '/developer-resources/' },
-      ],
-    },
-  ]
-}

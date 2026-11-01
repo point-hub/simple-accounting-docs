@@ -1,0 +1,16 @@
+# Update Email
+
+The Update Email page allows users to change their registered email address. Since the email is used for authentication, verification, and password recovery, updating it requires additional validation to maintain security.
+
+## Scenarios
+
+- **Success Scenarios**
+  - [2.2.S1. User can update email successfully.](./scenarios/s1/)
+- **Failure Scenarios**
+  - [2.2.F1. Email update fails when user is not authenticated.](./scenarios/f1/)
+  - [2.2.F2. Email update fails when required fields are empty.](./scenarios/f2/)
+  - [2.2.F3. Email update fails when email already exists.](./scenarios/f3/)
+  
+  ## Test Report
+
+  [https://simple-accounting-test-report.netlify.app/2.2](https://simple-accounting-test-report.netlify.app/2.2)

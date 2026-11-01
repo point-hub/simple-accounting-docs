@@ -1,0 +1,19 @@
+# Development Roadmap
+
+The Development Roadmap provides an overview of features, enhancements, and scheduled tasks planned for upcoming versions of the Simple Accounting application. It serves as a reference for the development team, project owners, and stakeholders to understand what is being built, prioritized, and tested.
+
+**Each item in the roadmap includes:**
+
+- Feature Description – A brief explanation of the functionality being developed.
+- Success Scenarios – Expected outcomes when the feature works correctly.
+- Failure Scenarios – Possible issues or validation failures that need to be handled.
+
+This roadmap helps ensure transparency, provides context for design decisions, and allows the team to track progress toward delivering new capabilities in a structured and organized manner.
+
+| Roadmap | Status |
+| --- | --- |
+| [v1.0.0 - Initial Release](./v1.0.0) | Delivered |
+| [v1.0.1 - Date Format Validation](./v1.0.1) | Delivered |
+| [v1.0.2 - Import Data Validation](./v1.0.2) | Delivered |
+| [v1.0.3 - Import Header Validation](./v1.0.3) | Approval PRD |
+| [v1.1.0 - UX Improvement for Handle Import Validation](./v1.1.0) | Progress PRD |

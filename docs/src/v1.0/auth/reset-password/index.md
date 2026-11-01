@@ -1,0 +1,18 @@
+# Reset Password
+
+The Reset Password feature allows users to create a new password after requesting a password reset through the Forgot Password process. It ensures secure account recovery while protecting against unauthorized access.
+
+This page is accessed through a secure, time-limited reset link sent to the user’s registered email address.
+
+## Scenarios
+
+- **Success Scenarios**
+  - [1.6.S1. User can reset password successfully.](./scenarios/s1/)
+- **Failure Scenarios**
+  - [1.6.F1. Password reset fails when required fields are empty.](./scenarios/f1/)
+  - [1.6.F2. Password reset fails when password is not strong enough.](./scenarios/f2/)
+  - [1.6.F3. Password reset fails when password confirmation does not match.](./scenarios/f3/)
+
+  ## Test Report
+
+  [https://simple-accounting-test-report.netlify.app/1.6](https://simple-accounting-test-report.netlify.app/1.6)

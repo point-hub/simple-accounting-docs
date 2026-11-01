@@ -1,0 +1,97 @@
+[
+    {
+      "text": "Documentation",
+      "items": [
+        { "text": "Introduction", "link": "/v1.1/" },
+        { "text": "Sitemap", "link": "/v1.1/sitemap" }
+      ]
+    },
+    {
+      "text": "Features",
+      "items": [
+        {
+          "text": "Auth",
+          "collapsed": "true",
+          "items": [
+            { "text": "About", "link": "/v1.1/auth/about/" },
+            { "text": "Schema", "link": "/v1.1/auth/schema/" },
+            { "text": "Signup", "link": "/v1.1/auth/signup/" },
+            { "text": "Verify Email", "link": "/v1.1/auth/verify-email/" },
+            { "text": "Signin", "link": "/v1.1/auth/signin/" },
+            { "text": "Signout", "link": "/v1.1/auth/signout/" },
+            { "text": "Forgot Password", "link": "/v1.1/auth/forgot-password/" },
+            { "text": "Reset Password", "link": "/v1.1/auth/reset-password/" }
+          ]
+        },
+        {
+          "text": "My Account",
+          "collapsed": "true",
+          "items": [
+            { "text": "About", "link": "/v1.1/my-account/about/" },
+            { "text": "Schema", "link": "/v1.1/my-account/schema/" },
+            { "text": "Update Username", "link": "/v1.1/my-account/update-username/" },
+            { "text": "Update Email", "link": "/v1.1/my-account/update-email/" },
+            { "text": "Update Password", "link": "/v1.1/my-account/update-password/" }
+          ]
+        },
+        {
+          "text": "Chart of Accounts",
+          "collapsed": "true",
+          "items": [
+            { "text": "About", "link": "/v1.1/chart-of-accounts/about/" },
+            { "text": "Schema", "link": "/v1.1/chart-of-accounts/schema/" },
+            { "text": "Import", "link": "/v1.1/chart-of-accounts/import/" },
+            { "text": "List", "link": "/v1.1/chart-of-accounts/list/" }
+          ]
+        },
+        {
+          "text": "Journals",
+          "collapsed": "true",
+          "items": [
+            { "text": "About", "link": "/v1.1/journals/about/" },
+            { "text": "Schema", "link": "/v1.1/journals/schema/" },
+            { "text": "Import", "link": "/v1.1/journals/import/" },
+            { "text": "List", "link": "/v1.1/journals/list/" }
+          ]
+        },
+        {
+          "text": "Accounting Reports",
+          "collapsed": "true",
+          "items": [
+            { "text": "About", "link": "/v1.1/accounting-reports/about/" },
+            {
+              "text": "General Ledger",
+              "link": "/v1.1/accounting-reports/general-ledger/"
+            },
+            { "text": "Subledger", "link": "/v1.1/accounting-reports/subledger/" },
+            { "text": "Trial Balance", "link": "/v1.1/accounting-reports/trial-balance/" },
+            {
+              "text": "Profit & Loss",
+              "link": "/v1.1/accounting-reports/profit-and-loss/"
+            },
+            {
+              "text": "Balance Sheet",
+              "link": "/v1.1/accounting-reports/balance-sheet/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Resources",
+      "items": [
+        {
+          "text": "Architecture Decision Records",
+          "link": "/v1.1/architecture-decision-records/"
+        },
+        {
+          "text": "Development Roadmap",
+          "link": "/v1.1/development-roadmap/"
+        },
+        {
+          "text": "Developer Resources",
+          "link": "/v1.1/developer-resources/"
+        }
+      ]
+    }
+  ]
